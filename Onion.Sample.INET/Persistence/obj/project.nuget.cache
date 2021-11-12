@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "rfy9bLLoaimJQnaCxhh9heOQ+3FBNFEi5uxAywvutPmx5vCvNYzDu/HrG59LlU6NLSp3q3CoV+x4uR8+ds4mHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
+=======
+  "dgSpecHash": "AGVnfT47hANj2vQRrLh4sp41XxZjp1B/84x1nIHra9zMpBe68KQ6nfR/3azAY/tG2ygPfSDuadEuwITRm1/cvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\todlu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\todlu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

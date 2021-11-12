@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "Tm/iSbzOt09b3PiPv2TXv/rl9b8z2fXqaspzJFP99oqRnwPV43l1CGyCYZK2Fz67ce/Ezw9Q1ADjjNHZAI3Obw==",
   "success": true,
   "projectFilePath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
+=======
+  "dgSpecHash": "feWAYz8XqVzYNKEUmDGvpo7k0Lkl20rq+HJqhvmhkk1pHQ42rEXmVP/LfvLicyGW33fpXac8hO85RUuF+Wdtzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\todlu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\todlu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
