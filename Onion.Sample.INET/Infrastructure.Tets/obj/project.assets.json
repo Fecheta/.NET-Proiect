@@ -9303,11 +9303,19 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
       "projectName": "Infrastructure.Tets",
       "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
       "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
+      "projectName": "Infrastructure.Tets",
+      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
+      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\obj\\",
+>>>>>>> Stashed changes
 =======
       "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
       "projectName": "Infrastructure.Tets",
@@ -9332,17 +9340,23 @@
           "targetAlias": "net6.0",
           "projectReferences": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
             },
             "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
               "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj"
 =======
+=======
+>>>>>>> Stashed changes
             "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
             },
             "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
               "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             }
           }

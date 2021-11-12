@@ -9,11 +9,19 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAPI
 build_property.RootNamespace = WebAPI
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\todlu\Documents\GitHub\.NET-Proiect\Onion.Sample.INET\WebAPI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\todlu\Documents\GitHub\.NET-Proiect\Onion.Sample.INET\WebAPI
+=======
+build_property.ProjectDir = C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Onion.Sample.INET\WebAPI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Onion.Sample.INET\WebAPI
+>>>>>>> Stashed changes
 =======
 build_property.ProjectDir = C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Onion.Sample.INET\WebAPI\
 build_property.RazorLangVersion = 6.0

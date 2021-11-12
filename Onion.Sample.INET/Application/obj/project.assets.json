@@ -604,11 +604,19 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
       "projectName": "Application",
       "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
+>>>>>>> Stashed changes
 =======
       "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
       "projectName": "Application",
@@ -633,8 +641,13 @@
           "targetAlias": "net6.0",
           "projectReferences": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
+=======
+            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
+>>>>>>> Stashed changes
 =======
             "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"

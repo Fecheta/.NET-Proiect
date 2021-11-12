@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
@@ -13,6 +14,19 @@
         "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
+=======
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {}
   },
@@ -43,8 +57,13 @@
             "targetAlias": "net6.0",
             "projectReferences": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
+=======
+              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
+>>>>>>> Stashed changes
 =======
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
@@ -96,6 +115,7 @@
       }
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -104,6 +124,16 @@
         "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\obj\\",
+=======
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\obj\\",
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
       "version": "1.0.0",
@@ -161,6 +191,7 @@
       }
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,6 +201,8 @@
         "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\obj\\",
 =======
+=======
+>>>>>>> Stashed changes
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -178,6 +211,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\obj\\",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -196,8 +232,13 @@
             "targetAlias": "net6.0",
             "projectReferences": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
+=======
+              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
+>>>>>>> Stashed changes
 =======
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
