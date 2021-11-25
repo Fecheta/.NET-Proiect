@@ -11,6 +11,9 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { AddHouseComponent } from './addHouse/addHouse.component';
 import { WaitingPageComponent } from './waitingPage/waitingPage.component';
+import { FirstPageComponent } from './first-page/first-page.component';
+import { FormsComponent } from './first-page/forms/forms.component';
+import { HeaderComponent } from './first-page/header/header.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,10 @@ import { WaitingPageComponent } from './waitingPage/waitingPage.component';
     FetchDataComponent,
     AddHouseComponent,
     WaitingPageComponent,
+    FirstPageComponent,
+    FormsComponent,
+    HeaderComponent
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -30,8 +37,9 @@ import { WaitingPageComponent } from './waitingPage/waitingPage.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      {path:'addHouse', component: AddHouseComponent},
-      {path:'waitingPage', component: WaitingPageComponent},
+      { path: 'addHouse', component: AddHouseComponent },
+      { path: 'waitingPage', component: WaitingPageComponent },
+      { path: 'firstPage', component: FirstPageComponent },
     ])
   ],
   providers: [],

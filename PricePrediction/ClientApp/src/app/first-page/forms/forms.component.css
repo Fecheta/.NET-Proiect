@@ -1,0 +1,54 @@
+.title {
+  text-align: center;
+  font-size: 64px;
+}
+
+
+.insert {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 31px;
+}
+
+.input {
+  color: lightslategrey;
+  border: 1px solid #0d3859;
+  border-radius: 5px;
+}
+
+.inputs {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  text-align: center;
+}
+
+.submitDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  flex: auto;
+  height: 400px;
+}
+
+.submitInputs {
+  height: 80px;
+  background: lightskyblue;
+  border: 2px solid royalblue;
+  border-radius: 15px;
+  color: #0d3859;
+  /*font-weight: bold;*/
+  font-size: larger;
+}
+
+  .submitInputs:hover {
+    background: dodgerblue;
+    border: 2px solid royalblue;
+    color: aliceblue;
+  }
+
+  .space{
+      height: 100px;
+  }
