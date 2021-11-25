@@ -1,20 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
-=======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj": {}
   },
   "projects": {
@@ -26,23 +12,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
->>>>>>> Stashed changes
-=======
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,18 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
-=======
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
->>>>>>> Stashed changes
-=======
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj"
->>>>>>> Stashed changes
               }
             }
           }
@@ -114,17 +76,6 @@
         }
       }
     },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Domain\\obj\\",
-=======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -133,20 +84,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\obj\\",
->>>>>>> Stashed changes
-=======
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Domain\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,19 +130,6 @@
         }
       }
     },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
-        "projectName": "Infrastructure.Tets",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\obj\\",
-=======
-=======
->>>>>>> Stashed changes
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -211,13 +138,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\Infrastructure.Tets.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Infrastructure.Tets\\obj\\",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -231,27 +154,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
-              },
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj"
-=======
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
               },
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj"
->>>>>>> Stashed changes
-=======
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
-              },
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj"
->>>>>>> Stashed changes
               }
             }
           }
@@ -310,9 +217,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -321,17 +225,6 @@
         }
       }
     },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\obj\\",
-=======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -340,20 +233,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\obj\\",
->>>>>>> Stashed changes
-=======
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -367,18 +249,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
-=======
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
->>>>>>> Stashed changes
-=======
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
->>>>>>> Stashed changes
               }
             }
           }
@@ -437,17 +309,6 @@
         }
       }
     },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\obj\\",
-=======
     "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -456,20 +317,9 @@
         "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\obj\\",
->>>>>>> Stashed changes
-=======
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\WebAPI\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -483,25 +333,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
-              },
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
-=======
-=======
->>>>>>> Stashed changes
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Application\\Application.csproj"
               },
               "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Onion.Sample.INET\\Persistence\\Persistence.csproj"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
               }
             }
           }

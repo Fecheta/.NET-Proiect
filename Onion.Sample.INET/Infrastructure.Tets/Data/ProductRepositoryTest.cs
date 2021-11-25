@@ -18,7 +18,6 @@ namespace Infrastructure.Tets.Data
             {
                 Id = Guid.Parse("2cbda575-865e-4ecc-ab48-24e82f2e39f8"),
                 Name = "Keyboard",
-                Barcode = "BarcodeKeyboard",
                 Price = 20
             };
         }
