@@ -14,6 +14,7 @@ import { WaitingPageComponent } from './waitingPage/waitingPage.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { FormsComponent } from './first-page/forms/forms.component';
 import { HeaderComponent } from './first-page/header/header.component';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HeaderComponent } from './first-page/header/header.component';
     WaitingPageComponent,
     FirstPageComponent,
     FormsComponent,
-    HeaderComponent
+    HeaderComponent,
+    ResultComponent
 
   ],
   imports: [
@@ -40,6 +42,7 @@ import { HeaderComponent } from './first-page/header/header.component';
       { path: 'addHouse', component: AddHouseComponent },
       { path: 'waitingPage', component: WaitingPageComponent },
       { path: 'firstPage', component: FirstPageComponent },
+      { path: 'result', component: ResultComponent },
     ])
   ],
   providers: [],

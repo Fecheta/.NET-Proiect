@@ -1,0 +1,70 @@
+.title {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  height: 300px;
+}
+
+.price {
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #fff;
+  padding: 1.125em 1.5em;
+  font-size: 1.25em;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+
+.btn-primary
+{
+  height: 50px;
+  width: 100px;
+}
+
+.btn-primary:hover
+{
+  background: dodgerblue;
+}
+
+.btn-info
+{
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: black;
+  border-radius: 50%;
+  background: lightslategrey;
+  border: lightslategrey;
+}
+
+.btn-info:hover
+{
+  background: white;
+  border: 2px solid lightslategray;
+}
+
+
+.buttons
+{
+  display: flex;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
