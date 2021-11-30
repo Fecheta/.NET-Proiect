@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Utils
 {
-    internal class PricePredictUtilHandler : IRequestHandler<PricePredictUtil, decimal>
+    public class PricePredictUtilHandler : IRequestHandler<PricePredictUtil, decimal>
     {
         public async Task<decimal> Handle(PricePredictUtil request, CancellationToken cancellationToken)
         {

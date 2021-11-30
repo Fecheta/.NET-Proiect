@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "izD5IJSnpPzlUZhRD76T4yuTw5RH1/Ktm4eEN6NPSXFrM8YBfQ+NXjjJ57xyPnfNf/gMDNynxzWHpBGkCOz0Ag==",
+  "dgSpecHash": "A1WQLVWYrMzOecE40x0W4QxBLu23r5yhfz0CukVInOKiniKnvs6lUJinPHLA7nJHs4SPHGZiSc0XJgNnouVf8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Virgil\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -99,7 +100,8 @@
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Virgil\\.nuget\\packages\\tinycsvparser\\2.6.1\\tinycsvparser.2.6.1.nupkg.sha512"
   ],
   "logs": []
 }

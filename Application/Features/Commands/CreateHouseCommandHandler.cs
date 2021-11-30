@@ -19,7 +19,12 @@ namespace Application.Features.Commands
         {
             var house = new House
             {
-                Name = request.Name,
+                Bedrooms = request.Bedrooms,
+                Bathrooms = request.Bathrooms,
+                SquareFeet = request.SquareFeet,
+                Floors = request.Floors,
+                ZipCode = request.ZipCode,
+                YearBuilt = request.YearBuilt,
                 Price = request.Price
             };
 

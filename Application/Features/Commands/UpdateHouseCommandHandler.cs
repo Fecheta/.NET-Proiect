@@ -22,7 +22,12 @@ namespace Application.Features.Commands
                 throw new Exception("House doesn't exist!");
             }
 
-            house.Name = request.Name;
+            house.Bedrooms = request.Bedrooms;
+            house.Bathrooms = request.Bathrooms;
+            house.SquareFeet = request.SquareFeet;
+            house.Floors = request.Floors;
+            house.ZipCode = request.ZipCode;
+            house.YearBuilt = request.YearBuilt;
             house.Price = request.Price;
 
             await repository.UpdateAsync(house);

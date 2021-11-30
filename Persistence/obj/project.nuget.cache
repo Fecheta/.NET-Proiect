@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ISWmm+h6ex+DOmSXA4k2Cx6Yo9Pfa0wHQvCVi4CXEYaM3cFBCPXYvKfcHRE3Qg/gGtfIWeZDWUdjJ7nTxTWijg==",
+  "dgSpecHash": "6eRoqOcoQKUAMvqjPaMr6hlFxyk5guuF+Dl5GrMabbPYaQXqeyDQZ+EAVgqvPa92w3SajqyM5logF+dZGro9gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Virgil\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
@@ -112,7 +113,8 @@
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Virgil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Virgil\\.nuget\\packages\\tinycsvparser\\2.6.1\\tinycsvparser.2.6.1.nupkg.sha512"
   ],
   "logs": []
 }
