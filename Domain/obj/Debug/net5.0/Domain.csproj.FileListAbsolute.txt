@@ -9,3 +9,15 @@ C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Domain\obj\Debug\net5.0\Doma
 C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.dll
 C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\todlu\Documents\GitHub\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.pdb

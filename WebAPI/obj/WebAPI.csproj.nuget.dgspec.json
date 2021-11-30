@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
+    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\obj\\",
+        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj"
+              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,17 +76,17 @@
         }
       }
     },
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
+    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,17 +130,17 @@
         }
       }
     },
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,8 +154,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj"
+              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj"
               }
             }
           }
@@ -188,17 +188,17 @@
         }
       }
     },
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,11 +212,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj"
+              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj"
               },
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj"
+              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj"
               }
             }
           }
