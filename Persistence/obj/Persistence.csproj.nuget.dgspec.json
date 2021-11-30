@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj": {
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj"
+              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj"
               }
             }
           }
@@ -44,11 +44,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MediatR": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.12, )"
             },
@@ -76,17 +80,17 @@
         }
       }
     },
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,17 +134,17 @@
         }
       }
     },
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Application\\Application.csproj"
+              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj"
               }
             }
           }
@@ -169,6 +173,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

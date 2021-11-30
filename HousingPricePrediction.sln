@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{07954836-ACD7-4C56-B6DC-3859C002B04A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricePrediction", "PricePrediction\PricePrediction.csproj", "{C4AC903E-B582-4AD9-B966-04CC91FB34BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PricePrediction", "PricePrediction\PricePrediction.csproj", "{C4AC903E-B582-4AD9-B966-04CC91FB34BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

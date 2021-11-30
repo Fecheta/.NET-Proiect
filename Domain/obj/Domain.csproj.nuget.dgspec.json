@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj": {
+    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\todlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\todlu\\Documents\\GitHub\\.NET-Proiect\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\todlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
