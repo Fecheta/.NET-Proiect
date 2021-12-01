@@ -10,6 +10,8 @@ import {Router} from '@angular/router';
 })
 export class FormsComponent implements OnInit {
   form: FormGroup = new FormGroup({});
+  control = new FormControl('', Validators.required);
+  invalidForm = false;
 
   constructor(private router: Router, fb: FormBuilder) {
     this.form = fb.group({
@@ -26,12 +28,26 @@ export class FormsComponent implements OnInit {
 
   get f() {
     return this.form.controls;
+    this.invalidForm = false;
   }
 
   submit() {
     if (!this.form.invalid) {
       console.log(this.form.value);
     }
+  }
+
+  compute() {
+    if (!this.form.invalid) {
+      this.invalidForm = false;
+      this.router.navigateByUrl('waitingPage');
+    } else {
+      this.invalidForm = true;
+    }
+  }
+
+  setInvalidForm() {
+    this.invalidForm = false;
   }
 
   ngOnInit() {
