@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Commands
 {
-    public class DeleteHouseCommandHandler : IRequestHandler<DeleteHouseCommand, Guid>
+    public class DeleteHouseCommandHandler : IRequestHandler<DeleteHouseCommand, int>
     {
         private readonly IHouseRepository repository;
 
@@ -14,7 +14,7 @@ namespace Application.Features.Commands
         {
             this.repository = repository;
         }
-        public async Task<Guid> Handle(DeleteHouseCommand request, CancellationToken cancellationToken)
+        public async Task<int> Handle(DeleteHouseCommand request, CancellationToken cancellationToken)
         {
             var house = repository.GetByIdAsync(request.Id).Result;
             if (house == null)
@@ -25,6 +25,7 @@ namespace Application.Features.Commands
             await repository.DeleteAsync(house);
 
             return house.Id;
+
         }
     }
 }

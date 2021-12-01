@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Commands
 {
-    public class UpdateHouseCommandHandler : IRequestHandler<UpdateHouseCommand, Guid>
+    public class UpdateHouseCommandHandler : IRequestHandler<UpdateHouseCommand, int>
     {
         private readonly IHouseRepository repository;
 
@@ -14,10 +14,10 @@ namespace Application.Features.Commands
         {
             this.repository = repository;
         }
-        public async Task<Guid> Handle(UpdateHouseCommand request, CancellationToken cancellationToken)
+        public async Task<int> Handle(UpdateHouseCommand request, CancellationToken cancellationToken)
         {
             var house = repository.GetByIdAsync(request.Id).Result;
-            if (house == null || house.Id == Guid.Empty)
+            if (house == null || house.Id is 0)
             {
                 throw new Exception("House doesn't exist!");
             }
@@ -33,7 +33,6 @@ namespace Application.Features.Commands
             await repository.UpdateAsync(house);
 
             return house.Id;
-                
         }
     }
 }

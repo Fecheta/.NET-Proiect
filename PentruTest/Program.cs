@@ -17,42 +17,42 @@ namespace PentruTest
         {
             //Console.WriteLine("Hello World!");
 
-            CSVParser parser = new CSVParser(@"C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\PentruTest\kc_house_data.csv");
+            //CSVParser parser = new CSVParser(@"C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\PentruTest\kc_house_data.csv");
 
-            List<HouseFullSpecifications> result = parser.parse();
+            //List<HouseFullSpecifications> result = parser.parse();
 
-            //foreach(var i in result)
-            //     Console.WriteLine(i);
+            ////foreach(var i in result)
+            ////     Console.WriteLine(i);
 
-            var outdef = 0m;
-            var contectOptions = new DbContextOptionsBuilder<HouseContext>()
-                .UseSqlite(@"Data Source=C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\WebAPI\MyHouses.db");
+            //var outdef = 0m;
+            //var contectOptions = new DbContextOptionsBuilder<HouseContext>()
+            //    .UseSqlite(@"Data Source=C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\WebAPI\MyHouses.db");
 
-            HouseContext context = new HouseContext(contectOptions.Options);
+            //HouseContext context = new HouseContext(contectOptions.Options);
 
 
-            for (int i = 0; i < 10; i++)
-            {
-                House h = new House
-                {
-                    Id = Guid.NewGuid(),
-                    Bedrooms = result[i].bedrooms,
-                    Bathrooms = result[i].bathrooms,
-                    SquareFeet = result[i].sqft_living,
-                    Floors = result[i].floors,
-                    ZipCode = result[i].zipcode,
-                    YearBuilt = result[i].yr_built,
-                    Price = result[i].price
-                };
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    House h = new House
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Bedrooms = result[i].bedrooms,
+            //        Bathrooms = result[i].bathrooms,
+            //        SquareFeet = result[i].sqft_living,
+            //        Floors = result[i].floors,
+            //        ZipCode = result[i].zipcode,
+            //        YearBuilt = result[i].yr_built,
+            //        Price = result[i].price
+            //    };
 
-                Console.WriteLine(h);
+            //    Console.WriteLine(h);
 
-                context.AddAsync(h);
-            }
+            //    context.AddAsync(h);
+            //}
 
-            context.SaveChanges();
+            //context.SaveChanges();
 
-            Console.WriteLine(" Count: " + result.Count + " records");
+            //Console.WriteLine(" Count: " + result.Count + " records");
         }
     }
 }

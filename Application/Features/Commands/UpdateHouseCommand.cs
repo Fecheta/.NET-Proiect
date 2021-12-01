@@ -3,9 +3,9 @@ using System;
 
 namespace Application.Features.Commands
 {
-    public class UpdateHouseCommand : IRequest<Guid>
+    public class UpdateHouseCommand : IRequest<int>
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string Bedrooms { get; set; }
 

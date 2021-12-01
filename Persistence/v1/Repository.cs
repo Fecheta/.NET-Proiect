@@ -44,9 +44,9 @@ namespace Persistence.v1
             return await context.Set<TEntity>().ToListAsync();
         }
 
-        public async Task<TEntity> GetByIdAsync(Guid id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
-            if (id == Guid.Empty)
+            if (id is 0)
             {
                 throw new ArgumentException($"{nameof(GetByIdAsync)} id must not be empty");
             }

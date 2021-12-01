@@ -3,7 +3,7 @@ using System;
 
 namespace Application.Features.Commands
 {
-    public class CreateHouseCommand : IRequest<Guid>
+    public class CreateHouseCommand : IRequest<int>
     {
         public string Bedrooms { get; set; }
 

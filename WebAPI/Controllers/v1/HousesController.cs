@@ -27,7 +27,7 @@ namespace WebAPI.Controllers.v1
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Guid id, [FromBody] UpdateHouseCommand command)
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateHouseCommand command)
         {
             if (id != command.Id)
             {

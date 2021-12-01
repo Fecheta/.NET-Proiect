@@ -3,9 +3,9 @@ using System;
 
 namespace Application.Features.Commands
 {
-    public class DeleteHouseCommand : IRequest<Guid>
+    public class DeleteHouseCommand : IRequest<int>
     {
-        public Guid Id {  get; set; }
+        public int Id {  get; set; }
 
         public string Bedrooms { get; set; }
 

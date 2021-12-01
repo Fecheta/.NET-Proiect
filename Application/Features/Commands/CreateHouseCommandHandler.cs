@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Commands
 {
-    public class CreateHouseCommandHandler : IRequestHandler<CreateHouseCommand, Guid>
+    public class CreateHouseCommandHandler : IRequestHandler<CreateHouseCommand, int>
     {
         private readonly IHouseRepository repository;
 
@@ -15,7 +15,7 @@ namespace Application.Features.Commands
         {
             this.repository = repository;
         }
-        public async Task<Guid> Handle(CreateHouseCommand request, CancellationToken cancellationToken)
+        public async Task<int> Handle(CreateHouseCommand request, CancellationToken cancellationToken)
         {
             var house = new House
             {
