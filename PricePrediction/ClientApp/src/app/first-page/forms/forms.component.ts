@@ -28,7 +28,6 @@ export class FormsComponent implements OnInit {
 
   get f() {
     return this.form.controls;
-    this.invalidForm = false;
   }
 
   submit() {
