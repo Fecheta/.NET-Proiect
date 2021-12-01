@@ -32,3 +32,6 @@ C:\Users\todlu\Documents\GitHub\.NET-Proiect\Persistence\obj\Debug\net5.0\Persis
 C:\Users\todlu\Documents\GitHub\.NET-Proiect\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\Users\todlu\Documents\GitHub\.NET-Proiect\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\todlu\Documents\GitHub\.NET-Proiect\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.json
+C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
+C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache

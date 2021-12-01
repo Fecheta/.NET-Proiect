@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Tests", "00 Tests", "{D25E8F06-09E7-4169-A2DD-60B29082EBFA}"
 EndProject
@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{07954836-ACD7-4C56-B6DC-3859C002B04A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricePrediction", "PricePrediction\PricePrediction.csproj", "{C4AC903E-B582-4AD9-B966-04CC91FB34BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PricePrediction", "PricePrediction\PricePrediction.csproj", "{C4AC903E-B582-4AD9-B966-04CC91FB34BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
