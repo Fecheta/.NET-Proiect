@@ -1,9 +1,16 @@
 <div class="container">
     
     <h1 class="headline"><span>Add a house to the database</span></h1>
+    
     <form [formGroup]="inputForm" (ngSubmit)="submit()">
         <div class="input-container">
             <div class="input-fields">
+                <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" id="alert" role="alert">
+                    <strong>There you go!</strong> House added successfully.
+                    <button (click)=closeAlert() type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="one-inline-div">
                     <input [(ngModel)]="houseModel.price" id="price" type="text" formControlName="price" (focus)="setInvalidForm()" placeholder="price"/>
                     <div *ngIf="f.price.touched && f.price.invalid" class="alert alert-danger">

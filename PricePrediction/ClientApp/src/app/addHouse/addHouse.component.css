@@ -84,9 +84,13 @@
     width: 65%;
   }
 
+  #alert {
+    width:100%;
+  }
+
   .one-inline-div, .two-inline-div {
-      width: 100%;
-      margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .two-inline-div {

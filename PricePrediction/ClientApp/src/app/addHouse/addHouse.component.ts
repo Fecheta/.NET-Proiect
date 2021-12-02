@@ -16,6 +16,7 @@ import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
     inputForm: FormGroup = new FormGroup({});
     control = new FormControl('', Validators.required);
     invalidForm = false;
+    alert:boolean= false;
 
     houseModel:House = {
       id: 1,
@@ -69,7 +70,11 @@ import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
       add(house: House) {
         var result = this.httpClient.post<number>('/api/1.0/Houses', this.houseModel).subscribe(result =>{
           console.log(result);
+          this.alert=true;
+          this.inputForm.reset({});
         });
-
+      }
+      closeAlert(){
+        this.alert = false;
       }
   }
