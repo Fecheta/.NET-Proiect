@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 using System.Threading.Tasks;
 
@@ -15,7 +16,8 @@ namespace Persistence.v1
         }
         public async Task<House> GetByZipcodeAndBedrooms(string zipcode, string bedrooms)
         {
-            var entity = await context.FindAsync<House>(zipcode, bedrooms);
+            var entity = await context.Houses
+                .FirstOrDefaultAsync(house => house.ZipCode == zipcode && house.Bedrooms == bedrooms);
             return entity;
         }
     }
