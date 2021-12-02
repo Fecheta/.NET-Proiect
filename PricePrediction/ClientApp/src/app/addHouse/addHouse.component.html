@@ -1,31 +1,84 @@
 <div class="container">
     
     <h1 class="headline"><span>Add a house to the database</span></h1>
-    <div class="input-fields">
-        <div class="price-div">
-            <input id="price" type="text" placeholder="price"/>
-        </div>
-        <div class="zipcode-div">
-            <input id="zipcode" type="text" placeholder="zipcode"/>
-        </div>
-        <div class="rooms-floors-div">
-            <input id="rooms" type="text" placeholder="rooms"/>
-            <input id="floors"type="text" placeholder="floors"/>
-        </div>
-    </div>
+    
+    <form [formGroup]="inputForm" (ngSubmit)="submit()">
+        <div class="input-container">
+            <div class="input-fields">
+                <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" id="alert" role="alert">
+                    <strong>There you go!</strong> House added successfully.
+                    <button (click)=closeAlert() type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="one-inline-div">
+                    <input [(ngModel)]="houseModel.price" id="price" type="text" formControlName="price" (focus)="setInvalidForm()" placeholder="price"/>
+                    <div *ngIf="f.price.touched && f.price.invalid" class="alert alert-danger">
+                        <div *ngIf="f.price.errors.required">Input is empty.</div>
+                        <div *ngIf="f.price.errors.pattern">Enter only numbers!</div>
+                    </div>
+                </div>
+                <div class="one-inline-div">
+                    <input [(ngModel)]="houseModel.zipcode" id="zipcode" type="text" formControlName="zipcode" (focus)="setInvalidForm()" placeholder="zipcode"/>
+                    <div *ngIf=" f.zipcode.touched && f.zipcode.invalid" class="alert alert-danger">
+                        <div *ngIf="f.zipcode.errors.required">Input is empty.</div>
+                        <div *ngIf="f.zipcode.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.zipcode.errors.minlength || f.zipcode.errors.maxlength">US Zip Codes are five numerical digits long.</div>
+                    </div>
+                </div>
+                <div class="one-inline-div">
+                    <input [(ngModel)]="houseModel.yearbuilt" id="yearbuilt" type="text" formControlName="yearbuilt" (focus)="setInvalidForm()" placeholder="building year"/>
+                    <div *ngIf=" f.yearbuilt.touched && f.yearbuilt.invalid" class="alert alert-danger">
+                        <div *ngIf="f.yearbuilt.errors.required">Input is empty.</div>
+                        <div *ngIf="f.yearbuilt.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.yearbuilt.errors.min">Too old.</div>
+                        <div *ngIf="f.yearbuilt.errors.max">It has not yet been built.</div>
+                    </div>
+                </div>
+                <div class="two-inline-div">
+                    <input [(ngModel)]="houseModel.bathrooms" id="bathrooms" type="text" formControlName="bathrooms" (focus)="setInvalidForm()" placeholder="number of bathrooms"/>
+                    <div *ngIf="f.bathrooms.touched && f.bathrooms.invalid" class="alert alert-danger">
+                        <div *ngIf="f.bathrooms.errors.required">Input is empty.</div>
+                        <div *ngIf="f.bathrooms.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.bathrooms.errors.min">At least one bathroom.</div>
+                    </div>
+                    <input [(ngModel)]="houseModel.bedrooms" id="bedrooms"type="text" formControlName="bedrooms" (focus)="setInvalidForm()" placeholder="number of bedrooms"/>
+                    <div *ngIf="f.bedrooms.touched && f.bedrooms.invalid" class="alert alert-danger">
+                        <div *ngIf="f.bedrooms.errors.required">Input is empty.</div>
+                        <div *ngIf="f.bedrooms.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.bedrooms.errors.min">At least one bedroom.</div>
+                    </div>
+                </div>
+                <div class="two-inline-div">
+                    <input [(ngModel)]="houseModel.squarefeet" id="squarefeet" type="text" formControlName="squarefeet" (focus)="setInvalidForm()" placeholder="squarefeet of living space"/>
+                    <div *ngIf="f.squarefeet.touched && f.squarefeet.invalid" class="alert alert-danger">
+                        <div *ngIf="f.squarefeet.errors.required">Input is empty.</div>
+                        <div *ngIf="f.squarefeet.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.squarefeet.errors.min">At least 20 sqarefeet.</div>
+                    </div>
+                    <input [(ngModel)]="houseModel.floors" id="floors"type="text" formControlName="floors" (focus)="setInvalidForm()" placeholder="number of floors"/>
+                    <div *ngIf="f.floors.touched && f.floors.invalid" class="alert alert-danger">
+                        <div *ngIf="f.floors.errors.required">Input is empty.</div>
+                        <div *ngIf="f.floors.errors.pattern">Enter only numbers!</div>
+                        <div *ngIf="f.floors.errors.min">At least 1 floor.</div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="override-div">
-        <p>Edit the information if house address is already in the database?</p>
-          <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-          </label>
-    </div>
+        <div class="override-div">
+            <p>Edit the information if house address is already in the database?</p>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
 
-    <div class="button-div">
-        <button id="addButton" class="button">
-            Add
-        </button>
+        <div class="button-div">
+            <button type="submit" id="addButton" class="button" (click)="add(houseModel)">
+                Add
+            </button>
+        </div>
     </div>
+</form>
     
   </div>

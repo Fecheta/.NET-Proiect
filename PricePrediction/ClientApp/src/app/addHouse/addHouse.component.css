@@ -59,10 +59,7 @@
 
   .container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
   }
 
   .headline {
@@ -72,6 +69,13 @@
     margin-top: 100px;
   }
 
+  .input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .input-fields {
     display: flex;
     flex-direction: column;
@@ -80,22 +84,40 @@
     width: 65%;
   }
 
-  .price-div, .zipcode-div, .rooms-floors-div {
-      width: 100%;
-      margin-bottom: 20px;
+  #alert {
+    width:100%;
   }
 
-  .rooms-floors-div {
+  .one-inline-div, .two-inline-div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .two-inline-div {
     display: flex;
     justify-content: space-between;
   }
 
-  #zipcode, #price {
+  #zipcode, #price, #yearbuilt {
     width: 100%;
   }
 
-  #rooms, #floors {
-      width: 49%;
+  #rooms, #floors, #bedrooms, #bathrooms, #squarefeet {
+    width: 49%;
+  }
+  .error-div {
+    height:10px;
+  }
+
+  input {
+    border-radius: 8px;
+  }
+
+  input.ng-invalid {
+    border-right: 5px solid red;
+  }
+  input.ng-valid {
+    border-right: 5px solid #0d3859;
   }
 
   .override-div {

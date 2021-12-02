@@ -13,9 +13,9 @@ namespace WebAPI.Controllers.v1
         }
 
         [HttpPost]
-        public async Task<IActionResult> Predict([FromBody] CreateHouseCommand command)
+        public async Task<IActionResult> Predict([FromBody] PricePredictUtil command)
         {
-            return Ok(await mediator.Send(new PricePredictUtil()));
+            return Ok(await mediator.Send(command));
         }
 
     }

@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Houses</h1>
+    <ul>
+        <li>
+            <div class="titles">
+                <span id="idSpan">House ID</span>
+                <span id="bdSpan">Number of bedrooms</span>
+                <span id="btSpan">Number of bathrooms</span>
+                <span id="prSpan">Price</span>
+            </div>
+        </li>
+        <li *ngFor="let house of houses">
+            <house-card-item [house]="house"></house-card-item>
+            </li>
+    </ul>
+</div>

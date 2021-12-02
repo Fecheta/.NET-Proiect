@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Domain.Common;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 using System;
@@ -43,7 +44,6 @@ namespace Persistence.v1
         {
             return await context.Set<TEntity>().ToListAsync();
         }
-
         public async Task<TEntity> GetByIdAsync(int id)
         {
             if (id is 0)

@@ -17,6 +17,8 @@ import { HeaderComponent } from './first-page/header/header.component';
 import { ResultComponent } from './result/result.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatProgressBarModule} from '@angular/material';
+import { HousesDashboardComponent } from './housesDashboard/housesDashboard.component';
+import { HouseCardItemComponent } from './houseCardItem/houseCardItem.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +32,9 @@ import {MatProgressBarModule} from '@angular/material';
     FirstPageComponent,
     FormsComponent,
     HeaderComponent,
-    ResultComponent
-
+    ResultComponent,
+    HousesDashboardComponent,
+    HouseCardItemComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),
@@ -47,6 +50,7 @@ import {MatProgressBarModule} from '@angular/material';
       {path: 'firstPage', component: FirstPageComponent},
       {path: 'result', component: ResultComponent},
       {path: 'result/:price', component: ResultComponent},
+      {path: 'dashboard', component: HousesDashboardComponent},
     ]),
     ReactiveFormsModule,
     BrowserAnimationsModule,
