@@ -9,12 +9,18 @@ import {ActivatedRoute, Router} from '@angular/router';
 export class ResultComponent implements OnInit {
 
   price: number;
+  priceIsPositive: boolean;
   private activatedRoute: ActivatedRoute;
 
   constructor(private router: Router, activatedRoute: ActivatedRoute) {
     this.activatedRoute = activatedRoute;
     this.activatedRoute.paramMap.subscribe(async params => {
       this.price = +params.get('price');
+      if(this.price > -1) {
+        this.priceIsPositive = true;
+      }
+      else 
+        this.priceIsPositive = false;
       console.log(this.price);
     });
   }

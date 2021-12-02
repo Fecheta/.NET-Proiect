@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.v1
 {
-    public class Repository : IHouseRepository
+    public class Repository<TEntity> : IHouseRepository
     {
         private readonly HouseContext context;
 

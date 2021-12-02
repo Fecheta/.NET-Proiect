@@ -1,7 +1,8 @@
 <h1 class="title">We think your house is worth: </h1>
 
 <div class="container">
-<p class="price" *ngIf="price > -1"]>{{price}}$</p>
+<p class="price" *ngIf="priceIsPositive">{{price}}$</p>
+<p class="price" *ngIf="!priceIsPositive">We don't know yet!</p>
 </div>
 
 <div class="buttons">
