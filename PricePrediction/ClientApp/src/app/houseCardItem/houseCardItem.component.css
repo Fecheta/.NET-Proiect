@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    border: 2px solid #0d3859;
+    border-radius:7px;
+    margin: 5px 0;
+    padding: 0;
+}
+
+span{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+
+}
+
+#idSpan, #bdSpan, #btSpan{
+    border-right:2px solid #0d3859 ;
+}

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.v1
 {
-    public class Repository<TEntity> : IHouseRepository
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         private readonly HouseContext context;
 
@@ -17,7 +17,7 @@ namespace Persistence.v1
         {
             this.context = context;
         }
-        public async Task<House> AddAsync(House entity)
+        public async Task<TEntity> AddAsync(TEntity entity)
         {
             if (entity == null)
             {
@@ -28,7 +28,7 @@ namespace Persistence.v1
             return entity;
         }
 
-        public async Task<House> DeleteAsync(House entity)
+        public async Task<TEntity> DeleteAsync(TEntity entity)
         {
             if (entity == null)
             {
@@ -40,27 +40,21 @@ namespace Persistence.v1
             return entity;
         }
 
-        public async Task<IEnumerable<House>> GetAllAsync()
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await context.Set<House>().ToListAsync();
+            return await context.Set<TEntity>().ToListAsync();
         }
-        public async Task<House> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
             if (id is 0)
             {
                 throw new ArgumentException($"{nameof(GetByIdAsync)} id must not be empty");
             }
 
-            return await context.FindAsync<House>(id);
+            return await context.FindAsync<TEntity>(id);
         }
 
-        public async Task<House> GetByZipcodeAndBedrooms(string zipcode, string bedrooms)
-        {
-            var entity = await context.FindAsync<House>(zipcode, bedrooms);
-            return entity;    
-        }
-
-        public async Task<House> UpdateAsync(House entity)
+        public async Task<TEntity> UpdateAsync(TEntity entity)
         {
             if (entity == null)
             {
