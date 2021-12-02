@@ -6,7 +6,7 @@ namespace PricePrediction
     {
         //for numerical values only float type works
         [ColumnName("date"),LoadColumn(1)]
-        public string Date { get; set; }
+        public string date { get; set; }
         [ColumnName("price"),LoadColumn(2)]
         public float Price { get; set; }
         [ColumnName("bedrooms"),LoadColumn(3)]

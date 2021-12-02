@@ -82,18 +82,50 @@ namespace PricePrediction
             */
             
             /* used to build model from training data
+               single use
             var trainer = mlContext.Regression.Trainers.LightGbm(labelColumnName: "price", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 
             ITransformer model = trainingPipeline.Fit(trainingDataView);
-
-            var crossValidationResults = mlContext.Regression.CrossValidate(trainingDataView, trainingPipeline,
-                numberOfFolds: 5, labelColumnName: "price");
             
             mlContext.Model.Save(model,trainingDataView.Schema,MODEL_FILEPATH);
             */
+            
+            //id,date,price,bedrooms,bathrooms,sqft_living,sqft_lot,floors,waterfront,view,condition,grade,sqft_above,sqft_basement,yr_built,yr_renovated,zipcode,lat,long,sqft_living15,sqft_lot15
+            //"7129300520","20141013T000000",221900,3,1,1180,5650,"1",0,0,3,7,1180,0,1955,0,"98178",47.5112,-122.257,1340,5650
 
+            ModelInput sampleData = new ModelInput()
+            {
+                date = "20141013T000000",
+                Bedrooms = 3F,
+                Bathrooms = 1F,
+                Sqft_living = 1180F,
+                Sqft_lot = 5650F,
+                Floors = "1",
+                Waterfront = 0F,
+                View = 0F,
+                Condition = 3F,
+                Grade = 7F,
+                Sqft_above = 1180F,
+                Sqft_basement = 0F,
+                Yr_built = 1955F,
+                Yr_renovated = 0F,
+                Zipcode = "98178",
+                Lat = 47.5112F,
+                Long = -122.257F,
+                Sqft_living15 = 1340F,
+                Sqft_lot15 = 5650F,
+
+            };
+
+            ITransformer mlModel = mlContext.Model.Load(MODEL_FILEPATH, out var modelInputSchema);
+
+            var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
+
+            ModelOutput pResult = predEngine.Predict(sampleData);
+            
+            Console.WriteLine($"Predicted price: {pResult.Score}");
 
             //CreateHostBuilder(args).Build().Run();
         }
