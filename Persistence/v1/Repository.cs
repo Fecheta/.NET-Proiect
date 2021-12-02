@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Domain.Common;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.v1
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
+    public class Repository : IHouseRepository
     {
         private readonly HouseContext context;
 
@@ -16,7 +17,7 @@ namespace Persistence.v1
         {
             this.context = context;
         }
-        public async Task<TEntity> AddAsync(TEntity entity)
+        public async Task<House> AddAsync(House entity)
         {
             if (entity == null)
             {
@@ -27,7 +28,7 @@ namespace Persistence.v1
             return entity;
         }
 
-        public async Task<TEntity> DeleteAsync(TEntity entity)
+        public async Task<House> DeleteAsync(House entity)
         {
             if (entity == null)
             {
@@ -39,22 +40,27 @@ namespace Persistence.v1
             return entity;
         }
 
-        public async Task<IEnumerable<TEntity>> GetAllAsync()
+        public async Task<IEnumerable<House>> GetAllAsync()
         {
-            return await context.Set<TEntity>().ToListAsync();
+            return await context.Set<House>().ToListAsync();
         }
-
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<House> GetByIdAsync(int id)
         {
             if (id is 0)
             {
                 throw new ArgumentException($"{nameof(GetByIdAsync)} id must not be empty");
             }
 
-            return await context.FindAsync<TEntity>(id);
+            return await context.FindAsync<House>(id);
         }
 
-        public async Task<TEntity> UpdateAsync(TEntity entity)
+        public async Task<House> GetByZipcodeAndBedrooms(string zipcode, string bedrooms)
+        {
+            var entity = await context.FindAsync<House>(zipcode, bedrooms);
+            return entity;    
+        }
+
+        public async Task<House> UpdateAsync(House entity)
         {
             if (entity == null)
             {

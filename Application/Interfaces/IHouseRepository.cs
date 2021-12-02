@@ -6,6 +6,6 @@ namespace Application.Interfaces
 {
     public interface IHouseRepository : IRepository<House>
     {
-        
+        Task<House> GetByZipcodeAndBedrooms(string zipcode, string bedrooms);
     }
 }

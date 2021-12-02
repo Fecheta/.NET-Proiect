@@ -8,13 +8,14 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class ResultComponent implements OnInit {
 
-  price: string;
+  price: number;
   private activatedRoute: ActivatedRoute;
 
   constructor(private router: Router, activatedRoute: ActivatedRoute) {
     this.activatedRoute = activatedRoute;
     this.activatedRoute.paramMap.subscribe(async params => {
-      this.price = params.get('price');
+      this.price = +params.get('price');
+      console.log(this.price);
     });
   }
 

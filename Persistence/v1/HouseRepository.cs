@@ -4,7 +4,7 @@ using Persistence.Context;
 
 namespace Persistence.v1
 {
-    public class HouseRepository : Repository<House>, IHouseRepository
+    public class HouseRepository : Repository, IHouseRepository
     {
         public HouseRepository(HouseContext context) : base(context)
         {
