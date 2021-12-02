@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-result',
@@ -8,7 +8,15 @@ import { Router } from '@angular/router';
 })
 export class ResultComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  price: string;
+  private activatedRoute: ActivatedRoute;
+
+  constructor(private router: Router, activatedRoute: ActivatedRoute) {
+    this.activatedRoute = activatedRoute;
+    this.activatedRoute.paramMap.subscribe(async params => {
+      this.price = params.get('price');
+    });
+  }
 
   ngOnInit() {
   }

@@ -1,6 +1,8 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Inject, Input} from '@angular/core';
 import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
 import {Router} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
+import {House} from 'src/app/models/house';
 
 
 @Component({
@@ -13,7 +15,18 @@ export class FormsComponent implements OnInit {
   control = new FormControl('', Validators.required);
   invalidForm = false;
 
-  constructor(private router: Router, fb: FormBuilder) {
+  houseModel: House = {
+    id: 1,
+    bedrooms: '',
+    bathrooms: '',
+    squareFeet: '',
+    floors: '',
+    zipcode: '',
+    yearbuilt: '',
+    price: '',
+  };
+
+  constructor(private router: Router, fb: FormBuilder, private httpClient: HttpClient) {
     this.form = fb.group({
       grade: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
       zipcode: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.minLength(5), Validators.maxLength(5)]],
@@ -52,4 +65,16 @@ export class FormsComponent implements OnInit {
   ngOnInit() {
   }
 
+  computePrice(house: House) {
+    let resultt = this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
+      console.log(result);
+      if (!this.form.invalid) {
+        this.invalidForm = false;
+        this.router.navigateByUrl('waitingPage/' + result);
+      } else {
+        this.invalidForm = true;
+      }
+    });
+  }
 }
+

@@ -15,6 +15,8 @@ import { FirstPageComponent } from './first-page/first-page.component';
 import { FormsComponent } from './first-page/forms/forms.component';
 import { HeaderComponent } from './first-page/header/header.component';
 import { ResultComponent } from './result/result.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressBarModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -31,21 +33,25 @@ import { ResultComponent } from './result/result.component';
     ResultComponent
 
   ],
-    imports: [
-        BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),
-        HttpClientModule,
-        FormsModule,
-        RouterModule.forRoot([
-            {path: '', component: HomeComponent, pathMatch: 'full'},
-            {path: 'counter', component: CounterComponent},
-            {path: 'fetch-data', component: FetchDataComponent},
-            {path: 'addHouse', component: AddHouseComponent},
-            {path: 'waitingPage', component: WaitingPageComponent},
-            {path: 'firstPage', component: FirstPageComponent},
-            {path: 'result', component: ResultComponent},
-        ]),
-        ReactiveFormsModule
-    ],
+  imports: [
+    BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),
+    HttpClientModule,
+    FormsModule,
+    RouterModule.forRoot([
+      {path: '', component: HomeComponent, pathMatch: 'full'},
+      {path: 'counter', component: CounterComponent},
+      {path: 'fetch-data', component: FetchDataComponent},
+      {path: 'addHouse', component: AddHouseComponent},
+      {path: 'waitingPage', component: WaitingPageComponent},
+      {path: 'waitingPage/:price', component: WaitingPageComponent},
+      {path: 'firstPage', component: FirstPageComponent},
+      {path: 'result', component: ResultComponent},
+      {path: 'result/:price', component: ResultComponent},
+    ]),
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatProgressBarModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

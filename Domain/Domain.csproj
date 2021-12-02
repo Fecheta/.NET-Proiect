@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.ML" Version="1.7.0" />
+    <PackageReference Include="Microsoft.ML.AutoML" Version="0.19.0" />
+    <PackageReference Include="Microsoft.ML.DataView" Version="1.7.0" />
+  </ItemGroup>
+
 </Project>

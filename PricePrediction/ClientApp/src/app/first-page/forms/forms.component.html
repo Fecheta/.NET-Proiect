@@ -18,7 +18,7 @@
     </div>
 
     <div class="zipcode-div">
-      <input type="text" class="input" formControlName="zipcode" placeholder="ZipCode" (focus)="setInvalidForm()"/>
+      <input [(ngModel)]="houseModel.zipcode" type="text" class="input" formControlName="zipcode" placeholder="ZipCode" (focus)="setInvalidForm()"/>
       <div *ngIf=" f.zipcode.touched && f.zipcode.invalid" class="alert alert-danger">
         <div *ngIf="f.zipcode.errors.required">Input is empty.</div>
         <div *ngIf="f.zipcode.errors.pattern">Enter only numbers!</div>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="year-div">
-      <input type="text" class="input" formControlName="year" placeholder="Year Built" (focus)="setInvalidForm()"/>
+      <input [(ngModel)]="houseModel.yearbuilt" type="text" class="input" formControlName="year" placeholder="Year Built" (focus)="setInvalidForm()"/>
       <div *ngIf="f.year.touched && f.year.invalid" class="alert alert-danger">
         <div *ngIf="f.year.errors.required">Input is empty.</div>
         <div *ngIf="f.year.errors.pattern">Enter only numbers!</div>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="bedrooms-div">
-      <input type="text" class="input" formControlName="bedrooms" placeholder="Bedrooms" (focus)="setInvalidForm()"/>
+      <input [(ngModel)]="houseModel.bedrooms" type="text" class="input" formControlName="bedrooms" placeholder="Bedrooms" (focus)="setInvalidForm()"/>
       <div *ngIf="f.bedrooms.touched && f.bedrooms.invalid" class="alert alert-danger">
         <div *ngIf="f.bedrooms.errors.required">Input is empty.</div>
         <div *ngIf="f.bedrooms.errors.pattern">Enter only numbers!</div>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="bathrooms-div">
-      <input type="text" class="input" formControlName="bathrooms" placeholder="Bathrooms" (focus)="setInvalidForm()"/>
+      <input [(ngModel)]="houseModel.bathrooms" type="text" class="input" formControlName="bathrooms" placeholder="Bathrooms" (focus)="setInvalidForm()"/>
       <div *ngIf="f.bathrooms.touched && f.bathrooms.invalid" class="alert alert-danger">
         <div *ngIf="f.bathrooms.errors.required">Input is empty.</div>
         <div *ngIf="f.bathrooms.errors.pattern">Enter only numbers!</div>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="sqftliving-div">
-      <input type="text" class="input" formControlName="sqftliving" placeholder="Sqft Living"
+      <input [(ngModel)]="houseModel.squareFeet" type="text" class="input" formControlName="sqftliving" placeholder="Sqft Living"
              (focus)="setInvalidForm()"/>
       <div *ngIf="f.sqftliving.touched && f.sqftliving.invalid" class="alert alert-danger">
         <div *ngIf="f.sqftliving.errors.required">Input is empty.</div>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="floors-div">
-      <input type="text" class="input" formControlName="floors" placeholder="Floors" (focus)="setInvalidForm()"/>
+      <input [(ngModel)]="houseModel.floors" type="text" class="input" formControlName="floors" placeholder="Floors" (focus)="setInvalidForm()"/>
       <div *ngIf="f.floors.touched && f.floors.invalid" class="alert alert-danger">
         <div *ngIf="f.floors.errors.required">Input is empty.</div>
         <div *ngIf="f.floors.errors.pattern">Enter only numbers!</div>
@@ -88,7 +88,7 @@
   </div>
 
   <div class="submitDiv">
-    <input type="submit" class="submitInputs" value="Compute the price" (click)="compute()">
+    <input type="submit" class="submitInputs" value="Compute the price" (click)="computePrice(houseModel)">
     <div *ngIf="control.errors && this.invalidForm==true" class="alert alert-danger">Please complete all required
       fields.
     </div>

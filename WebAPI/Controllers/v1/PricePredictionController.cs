@@ -1,4 +1,5 @@
-﻿using Application.Features.Utils;
+﻿using Application.Features.Commands;
+using Application.Features.Utils;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace WebAPI.Controllers.v1
         {
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Predict()
+        [HttpPost]
+        public async Task<IActionResult> Predict([FromBody] CreateHouseCommand command)
         {
             return Ok(await mediator.Send(new PricePredictUtil()));
         }
