@@ -13,12 +13,10 @@ namespace Application.Features.CSVConverter
     public class CSVParser
     {
         private string path;
-        private StreamReader csvFile;
 
         public CSVParser(string path)
         {
             this.path = path;
-            csvFile = new StreamReader(path);
         }
 
         public List<HouseFullSpecifications> parse()
