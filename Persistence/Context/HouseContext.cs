@@ -34,11 +34,11 @@ namespace Persistence.Context
 
         private List<House> Seeding()
         {
-            CSVParser parser = new CSVParser(@"..\Persistence\kc_house_data.csv");
-
-            //dam pathul intreg pentru ca la teste nu gaseste csv ul 
-/*            CSVParser parser = new CSVParser(@"C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\kc_house_data.csv");
+/*            CSVParser parser = new CSVParser(@"..\Persistence\kc_house_data.csv");
 */
+            //dam pathul intreg pentru ca la teste nu gaseste csv ul 
+            CSVParser parser = new CSVParser(@"C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\kc_house_data.csv");
+
 
             List<HouseFullSpecifications> parsedHouses = parser.parse();
             List<House> result = new List<House>();

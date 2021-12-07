@@ -36,7 +36,10 @@
   height: max-content;
   flex-direction: column;
   flex: auto;
+  margin-top: 150px;
+  /*
   height: 400px;
+  */
 }
 
 .submitInputs {

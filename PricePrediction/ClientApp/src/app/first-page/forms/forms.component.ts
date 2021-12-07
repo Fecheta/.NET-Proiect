@@ -66,7 +66,7 @@ export class FormsComponent implements OnInit {
   }
 
   computePrice(house: House) {
-    let resultt = this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
+     this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
       console.log(result);
       if (!this.form.invalid) {
         this.invalidForm = false;
