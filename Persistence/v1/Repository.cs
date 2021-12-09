@@ -21,7 +21,7 @@ namespace Persistence.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(entity)} entity must not be null");
+                throw new ArgumentNullException(nameof(entity), " entity must not be null");
             }
 
             return AddInternalAsync(entity);
