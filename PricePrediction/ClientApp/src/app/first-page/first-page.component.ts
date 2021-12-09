@@ -11,6 +11,7 @@ export class FirstPageComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    console.log("ngOnInit");
   }
 
 }

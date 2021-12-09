@@ -15,14 +15,14 @@ namespace PricePrediction
         public static void Main(string[] args)
         {
             MLContext mlContext = new MLContext(1);
-            IDataView trainingDataView = mlContext.Data.LoadFromTextFile<ModelInput>(
+             mlContext.Data.LoadFromTextFile<ModelInput>(
                 path: TRAINING_DATA_FILEPATH,
                 hasHeader: true,
                 separatorChar:',',
                 allowQuoting:true,
                 allowSparse: false);
 
-            var dataProcessPipeline = mlContext.Transforms.Categorical.OneHotEncoding(new[]
+             mlContext.Transforms.Categorical.OneHotEncoding(new[]
             {
                 new InputOutputColumnPair("date", "date"),
                 new InputOutputColumnPair("floors", "floors"),
