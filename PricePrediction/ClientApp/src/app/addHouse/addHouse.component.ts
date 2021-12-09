@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Inject, Input } from '@angular/core';
+import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { House } from '../models/house';
 import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
@@ -68,7 +68,7 @@ import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
       }
 
       add(house: House) {
-        var result = this.httpClient.post<number>('/api/1.0/Houses', this.houseModel).subscribe(result =>{
+         this.httpClient.post<number>('/api/1.0/Houses', this.houseModel).subscribe(result =>{
           console.log(result);
           this.alert=true;
           this.inputForm.reset({});
