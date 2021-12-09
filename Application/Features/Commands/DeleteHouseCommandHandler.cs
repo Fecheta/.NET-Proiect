@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Threading;
@@ -14,18 +15,23 @@ namespace Application.Features.Commands
         {
             this.repository = repository;
         }
-        public async Task<int> Handle(DeleteHouseCommand request, CancellationToken cancellationToken)
+        public Task<int> Handle(DeleteHouseCommand request, CancellationToken cancellationToken)
         {
-            var house = repository.GetByIdAsync(request.Id).Result;
+            House house = repository.GetByIdAsync(request.Id).Result;
             if (house == null)
             {
-                throw new ArgumentNullException("House doesn't exist");
+                throw new ArgumentNullException($"{nameof(house)} entity must not be null");
             }
 
+            return HandleInternal(house, request, cancellationToken);
+
+        }
+
+        public async Task<int> HandleInternal(House house, DeleteHouseCommand request, CancellationToken cancellationToken)
+        {
             await repository.DeleteAsync(house);
 
             return house.Id;
-
         }
     }
 }

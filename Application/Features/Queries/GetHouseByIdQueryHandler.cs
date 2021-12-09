@@ -20,7 +20,7 @@ namespace Application.Features.Queries
             var house = await repository.GetByIdAsync(request.Id);
             if (house == null)
             {
-                throw new ArgumentNullException("House doesn't exist");
+                throw new ArgumentNullException($"{nameof(house)} entity must not be null");
             }
 
             return house;
