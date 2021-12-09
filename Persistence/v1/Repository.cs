@@ -1,6 +1,5 @@
 ﻿using Application.Interfaces;
 using Domain.Common;
-using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
 using System;
@@ -17,26 +16,39 @@ namespace Persistence.v1
         {
             this.context = context;
         }
-        public async Task<TEntity> AddAsync(TEntity entity)
+
+        public Task<TEntity> AddAsync(TEntity entity)
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(AddAsync)} entity must not be null");
+                throw new ArgumentNullException($"{nameof(entity)} entity must not be null");
             }
+
+            return AddInternalAsync(entity);
+        }
+
+        public async Task<TEntity> AddInternalAsync(TEntity entity)
+        {
             await context.AddAsync(entity);
             await context.SaveChangesAsync();
             return entity;
         }
 
-        public async Task<TEntity> DeleteAsync(TEntity entity)
+        public Task<TEntity> DeleteAsync(TEntity entity)
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(DeleteAsync)} entity mult not be null");
+                throw new ArgumentNullException($"{nameof(entity)} entity mult not be null");
             }
 
+            return DeleteInternalAsync(entity);
+        }
+
+        public async Task<TEntity> DeleteInternalAsync(TEntity entity)
+        {
             context.Remove(entity);
             await context.SaveChangesAsync();
+
             return entity;
         }
 
@@ -44,26 +56,38 @@ namespace Persistence.v1
         {
             return await context.Set<TEntity>().ToListAsync();
         }
-        public async Task<TEntity> GetByIdAsync(int id)
+
+        public Task<TEntity> GetByIdAsync(int id)
         {
             if (id is 0)
             {
-                throw new ArgumentException($"{nameof(GetByIdAsync)} id must not be empty");
+                throw new ArgumentException($"{nameof(id)} id must not be empty");
             }
 
+            return GetByIdIntrenalAsync(id);
+        }
+
+        public async Task<TEntity> GetByIdIntrenalAsync(int id)
+        {
             return await context.FindAsync<TEntity>(id);
         }
 
-        public async Task<TEntity> UpdateAsync(TEntity entity)
+        public Task<TEntity> UpdateAsync(TEntity entity)
         {
             if (entity == null)
             {
-                throw new ArgumentNullException($"{nameof(UpdateAsync)} entity must not be null");
+                throw new ArgumentNullException($"{nameof(entity)} entity must not be null");
             }
 
+            return UpdateInternalAsync(entity);
+        }
+
+        public async Task<TEntity> UpdateInternalAsync(TEntity entity)
+        {
             context.Update(entity);
             await context.SaveChangesAsync();
             return entity;
         }
+
     }
 }
