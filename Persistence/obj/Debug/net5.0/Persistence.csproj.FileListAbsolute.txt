@@ -55,3 +55,23 @@ C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\obj
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\obj\Debug\net5.0\Persistence.pdb
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.json
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Application.dll
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Domain.dll
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Application.pdb
+D:\Repos\.Net\Proiect\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\Repos\.Net\Proiect\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache

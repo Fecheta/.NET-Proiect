@@ -11,6 +11,15 @@
           "lib/net5.0/CsvHelper.dll": {}
         }
       },
+      "FluentValidation/10.3.5": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
       "Google.Protobuf/3.11.4": {
         "type": "package",
         "dependencies": {
@@ -2832,6 +2841,27 @@
         "lib/netstandard2.0/CsvHelper.xml",
         "lib/netstandard2.1/CsvHelper.dll",
         "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "FluentValidation/10.3.5": {
+      "sha512": "Mt2CnRqNA5+vXVNFY05yLuOG3OLYR7Q/ZcP/rcJZPNPbg95foVUruyQEmKl1GeXVnT2+u6rjGU2ZCdgF//QU2A==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.5.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Google.Protobuf/3.11.4": {
@@ -8663,6 +8693,7 @@
     "net5.0": [
       "CsvHelper >= 27.2.1",
       "Domain >= 1.0.0",
+      "FluentValidation >= 10.3.5",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
@@ -8675,19 +8706,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Virgil\\.nuget\\packages\\": {}
+    "C:\\Users\\farta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\obj\\",
+      "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\.Net\\Proiect\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8701,8 +8732,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj"
+            "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj"
             }
           }
         }
@@ -8720,6 +8751,10 @@
           "CsvHelper": {
             "target": "Package",
             "version": "[27.2.1, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.3.5, )"
           },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -8773,7 +8808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

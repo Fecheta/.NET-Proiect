@@ -34,3 +34,15 @@ C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Domain\obj\Debu
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.dll
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Repos\.Net\Proiect\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\Repos\.Net\Proiect\Domain\bin\Debug\net5.0\Domain.dll
+D:\Repos\.Net\Proiect\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\Repos\.Net\Proiect\Domain\bin\Debug\net5.0\Domain.pdb
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.dll
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\Repos\.Net\Proiect\Domain\obj\Debug\net5.0\Domain.pdb

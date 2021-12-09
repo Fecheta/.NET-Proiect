@@ -11,6 +11,15 @@
           "lib/net5.0/CsvHelper.dll": {}
         }
       },
+      "FluentValidation/10.3.5": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
       "Google.Protobuf/3.11.4": {
         "type": "package",
         "dependencies": {
@@ -3070,6 +3079,7 @@
         "dependencies": {
           "CsvHelper": "27.2.1",
           "Domain": "1.0.0",
+          "FluentValidation": "10.3.5",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.12",
@@ -3147,6 +3157,27 @@
         "lib/netstandard2.0/CsvHelper.xml",
         "lib/netstandard2.1/CsvHelper.dll",
         "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "FluentValidation/10.3.5": {
+      "sha512": "Mt2CnRqNA5+vXVNFY05yLuOG3OLYR7Q/ZcP/rcJZPNPbg95foVUruyQEmKl1GeXVnT2+u6rjGU2ZCdgF//QU2A==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.5.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Google.Protobuf/3.11.4": {
@@ -9316,19 +9347,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Virgil\\.nuget\\packages\\": {}
+    "C:\\Users\\farta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\WebAPI\\obj\\",
+      "projectPath": "D:\\Repos\\.Net\\Proiect\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\.Net\\Proiect\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9342,11 +9373,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj"
+            "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj": {
+              "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj"
             },
-            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj"
+            "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -9402,12 +9433,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9416,7 +9441,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

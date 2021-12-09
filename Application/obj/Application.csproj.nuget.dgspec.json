@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {}
+    "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
+    "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\obj\\",
+        "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\.Net\\Proiect\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj"
+              "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[27.2.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.5, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -100,21 +104,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
+    "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\obj\\",
+        "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\.Net\\Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

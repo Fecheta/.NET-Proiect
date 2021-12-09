@@ -14,7 +14,11 @@ namespace Persistence.Context
         {
         }
 
-        public DbSet<House> Houses { get ; set; }
+        public HouseContext()
+        {
+        }
+
+        public virtual DbSet<House> Houses { get ; set; }
 
         public async Task<int> SaveChangesAsync()
         {
