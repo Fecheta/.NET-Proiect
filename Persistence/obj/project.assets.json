@@ -9116,19 +9116,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Virgil\\.nuget\\packages\\": {}
+    "C:\\Users\\Filip Martisca\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Persistence\\obj\\",
+      "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\Filip Martisca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Filip Martisca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9142,8 +9147,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj"
+            "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj"
             }
           }
         }

@@ -63,6 +63,7 @@ export class FormsComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log("ngOnInit");
   }
 
   computePrice(house: House) {
