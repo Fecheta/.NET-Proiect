@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj": {
+    "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\.Net\\Proiect\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Filip Martisca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Filip Martisca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj"
+              "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\Domain.csproj"
               }
             }
           }
@@ -104,21 +108,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
+    "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\.Net\\Proiect\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Filip Martisca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Filip Martisca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,21 +184,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Repos\\.Net\\Proiect\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\.Net\\Proiect\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Filip Martisca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Filip Martisca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,8 +216,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj": {
-                "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj"
+              "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Application.csproj"
               }
             }
           }
@@ -272,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

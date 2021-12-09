@@ -28,13 +28,11 @@ export class FormsComponent implements OnInit {
 
   constructor(private router: Router, fb: FormBuilder, private httpClient: HttpClient) {
     this.form = fb.group({
-      grade: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
       zipcode: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.minLength(5), Validators.maxLength(5)]],
       year: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1800), Validators.max((new Date()).getFullYear())]],
       bedrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
       bathrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
       sqftliving: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(100)]],
-      sqftlot: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(100)]],
       floors: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]]
     });
   }
@@ -62,7 +60,7 @@ export class FormsComponent implements OnInit {
       this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
         console.log(result);
         this.invalidForm = false;
-        this.router.navigateByUrl('waitingPage/' + result);
+        this.router.navigateByUrl('waiting/' + result);
       });
     } else {
       this.invalidForm = true;
