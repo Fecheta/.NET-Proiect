@@ -61,7 +61,7 @@ namespace Persistence.v1
         {
             if (id is 0)
             {
-                throw new ArgumentException(nameof(id), " id must not be empty");
+                throw new ArgumentException(nameof(id));
             }
 
             return GetByIdIntrenalAsync(id);
@@ -76,7 +76,7 @@ namespace Persistence.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException(nameof(entity), " entity must not be null");
+                throw new ArgumentNullException(nameof(entity));
             }
 
             return UpdateInternalAsync(entity);
