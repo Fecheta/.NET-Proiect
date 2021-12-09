@@ -49,33 +49,25 @@ export class FormsComponent implements OnInit {
     }
   }
 
-  compute() {
-    if (!this.form.invalid) {
-      this.invalidForm = false;
-      this.router.navigateByUrl('waitingPage');
-    } else {
-      this.invalidForm = true;
-    }
-  }
-
   setInvalidForm() {
     this.invalidForm = false;
   }
 
   ngOnInit() {
-    console.log("ngOnInit");
+    console.log('ngOnInit');
   }
 
   computePrice(house: House) {
-     this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
-      console.log(result);
-      if (!this.form.invalid) {
+    if (!this.form.invalid) {
+      this.httpClient.post<number>('/api/1.0/PricePrediction', this.houseModel).subscribe(result => {
+        console.log(result);
         this.invalidForm = false;
         this.router.navigateByUrl('waitingPage/' + result);
-      } else {
-        this.invalidForm = true;
-      }
-    });
+      });
+    } else {
+      this.invalidForm = true;
+    }
+
   }
 }
 
