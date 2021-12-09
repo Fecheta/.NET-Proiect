@@ -20,7 +20,7 @@ namespace Application.Features.Commands
             House house = repository.GetByIdAsync(request.Id).Result;
             if (house == null || house.Id is 0)
             {
-                throw new ArgumentNullException($"{nameof(house)} entity must not be null");
+                throw new ArgumentNullException("request", "No house with this id was found");
             }
 
             return HandleInternal(house, request, cancellationToken);
