@@ -22,6 +22,7 @@ namespace Persistence.v1
             if (entity == null)
             {
                 throw new ArgumentNullException(nameof(entity), " entity must not be null");
+
             }
 
             return AddInternalAsync(entity);
@@ -38,7 +39,7 @@ namespace Persistence.v1
         {
             if (entity == null)
             {
-                throw new ArgumentNullException(nameof(entity), "entity mult not be null");
+                throw new ArgumentNullException(nameof(entity), "entity must not be null");
             }
 
             return DeleteInternalAsync(entity);
@@ -61,7 +62,7 @@ namespace Persistence.v1
         {
             if (id is 0)
             {
-                throw new ArgumentException(nameof(id));
+                throw new ArgumentNullException(nameof(id), "id must not be null");
             }
 
             return GetByIdIntrenalAsync(id);
