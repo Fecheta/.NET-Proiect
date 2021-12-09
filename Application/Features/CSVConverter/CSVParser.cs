@@ -10,11 +10,11 @@ using TinyCsvParser;
 
 namespace Application.Features.CSVConverter
 {
-    public class CSVParser
+    public class CsvParser
     {
-        private string path;
+        private readonly string path;
 
-        public CSVParser(string path)
+        public CsvParser(string path)
         {
             this.path = path;
         }

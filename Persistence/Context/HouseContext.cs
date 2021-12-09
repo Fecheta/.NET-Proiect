@@ -34,7 +34,7 @@ namespace Persistence.Context
 
         private List<House> Seeding()
         {
-            CSVParser parser = new CSVParser(@"..\Persistence\kc_house_data.csv");
+            CsvParser parser = new CsvParser(@"..\Persistence\kc_house_data.csv");
 
             //dam pathul intreg pentru ca la teste nu gaseste csv ul 
            /* CSVParser parser = new CSVParser(@"C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\Persistence\kc_house_data.csv");
