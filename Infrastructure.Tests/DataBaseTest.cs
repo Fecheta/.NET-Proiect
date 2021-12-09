@@ -24,6 +24,8 @@ namespace Infrastructure.Tests
         {
             context.Database.EnsureDeleted();
             context.Dispose();
+
+            GC.SuppressFinalize(this);
         }
     }
 }

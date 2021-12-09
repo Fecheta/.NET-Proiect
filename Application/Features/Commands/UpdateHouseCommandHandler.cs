@@ -19,7 +19,7 @@ namespace Application.Features.Commands
             var house = repository.GetByIdAsync(request.Id).Result;
             if (house == null || house.Id is 0)
             {
-                throw new Exception("House doesn't exist!");
+                throw new ArgumentNullException("House doesn't exist!");
             }
 
             house.Bedrooms = request.Bedrooms;

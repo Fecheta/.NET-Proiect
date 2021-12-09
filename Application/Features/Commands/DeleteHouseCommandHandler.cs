@@ -19,7 +19,7 @@ namespace Application.Features.Commands
             var house = repository.GetByIdAsync(request.Id).Result;
             if (house == null)
             {
-                throw new Exception("House doesn't exist");
+                throw new ArgumentNullException("House doesn't exist");
             }
 
             await repository.DeleteAsync(house);

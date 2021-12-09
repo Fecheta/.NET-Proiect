@@ -1,5 +1,4 @@
 ﻿using Domain.Common;
-using System;
 using System.Text;
 
 namespace Domain.Entities
@@ -25,8 +24,7 @@ namespace Domain.Entities
             StringBuilder sb = new StringBuilder();
             foreach (System.Reflection.PropertyInfo property in this.GetType().GetProperties())
             {
-                //sb.Append(property.Name);
-                sb.Append(" ");
+                sb.Append(' ');
                 if (property.GetIndexParameters().Length > 0)
                 {
                     sb.Append("Indexed Property cannot be used");
@@ -35,8 +33,6 @@ namespace Domain.Entities
                 {
                     sb.Append(property.GetValue(this, null));
                 }
-
-                //sb.Append(System.Environment.NewLine);
             }
 
             return sb.ToString();
