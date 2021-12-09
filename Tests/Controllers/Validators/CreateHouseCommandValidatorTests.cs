@@ -50,7 +50,8 @@ namespace Tests.Controllers.Validators
                 .With(x => x.Price, "2000000")
                 .Create();
 
-            _validator.ShouldHaveValidationErrorFor(x => x.Bedrooms, model);
+           var result=  _validator.TestValidate(model);
+            result.ShouldHaveValidationErrorFor(x => x.Bedrooms);
         }
     }
 }

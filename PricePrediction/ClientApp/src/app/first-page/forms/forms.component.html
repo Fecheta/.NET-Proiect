@@ -8,14 +8,6 @@
 
   <div class="inputs">
 
-    <div class="grade-div">
-      <input type="text" class="input" formControlName="grade" placeholder="Grade" (focus)="setInvalidForm()"/>
-      <div *ngIf="f.grade.touched && f.grade.invalid" class="alert alert-danger">
-        <div *ngIf="f.grade.errors.required">Input is empty.</div>
-        <div *ngIf="f.grade.errors.pattern">Enter only numbers!</div>
-        <div *ngIf="f.grade.errors.min">The minimum grade is 1.</div>
-      </div>
-    </div>
 
     <div class="zipcode-div">
       <input [(ngModel)]="houseModel.zipcode" type="text" class="input" formControlName="zipcode" placeholder="ZipCode" (focus)="setInvalidForm()"/>
@@ -66,15 +58,6 @@
       </div>
     </div>
 
-    <div class="sqftlot-div">
-      <input type="text" class="input" formControlName="sqftlot" placeholder="Sqft Lot" (focus)="setInvalidForm()"/>
-      <div *ngIf="f.sqftlot.touched && f.sqftlot.invalid" class="alert alert-danger">
-        <div *ngIf="f.sqftlot.errors.required">Input is empty.</div>
-        <div *ngIf="f.sqftlot.errors.pattern">Enter only numbers!</div>
-        <div *ngIf="f.sqftlot.errors.min">At least 100 sqft.</div>
-
-      </div>
-    </div>
 
     <div class="floors-div">
       <input [(ngModel)]="houseModel.floors" type="text" class="input" formControlName="floors" placeholder="Floors" (focus)="setInvalidForm()"/>
