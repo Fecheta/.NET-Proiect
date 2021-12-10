@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionRoot CoveredStatements="41" TotalStatements="1704" CoveragePercent="2" ReportType="Xml" DotCoverVersion="2021.2.1">
+  <SolutionFolder Name="Core" CoveredStatements="24" TotalStatements="326" CoveragePercent="7">
+    <Project Name="Application" CoveredStatements="16" TotalStatements="232" CoveragePercent="7">
+      <Namespace Name="Application" CoveredStatements="16" TotalStatements="178" CoveragePercent="9">
+        <Namespace Name="Features" CoveredStatements="16" TotalStatements="175" CoveragePercent="9">
+          <Namespace Name="Commands" CoveredStatements="16" TotalStatements="97" CoveragePercent="16">
+            <Type Name="CreateHouseCommand" CoveredStatements="7" TotalStatements="14" CoveragePercent="50">
+              <AutoProperty Name="Bathrooms:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Bedrooms:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Floors:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Price:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="SquareFeet:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="YearBuilt:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="ZipCode:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+                <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+            </Type>
+            <Type Name="CreateHouseCommandHandler" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+              <Constructor Name="CreateHouseCommandHandler(IHouseRepository)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+              <Method Name="Handle(CreateHouseCommand,CancellationToken):Task&lt;int&gt;" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" />
+              </Method>
+            </Type>
+            <Type Name="CreateHouseCommandValidator" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <Constructor Name="CreateHouseCommandValidator()" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Type>
+            <Type Name="DeleteHouseCommand" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
+              <AutoProperty Name="Bathrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Bedrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Floors:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Price:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="SquareFeet:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="YearBuilt:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="ZipCode:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+            </Type>
+            <Type Name="DeleteHouseCommandHandler" CoveredStatements="0" TotalStatements="15" CoveragePercent="0">
+              <Constructor Name="DeleteHouseCommandHandler(IHouseRepository)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="Handle(DeleteHouseCommand,CancellationToken):Task&lt;int&gt;" CoveredStatements="0" TotalStatements="7" CoveragePercent="0" />
+              <Method Name="HandleInternal(House,DeleteHouseCommand,CancellationToken):Task&lt;int&gt;" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              </Method>
+            </Type>
+            <Type Name="UpdateHouseCommand" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
+              <AutoProperty Name="Bathrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Bedrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Floors:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Price:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="SquareFeet:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="YearBuilt:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="ZipCode:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+            </Type>
+            <Type Name="UpdateHouseCommandHandler" CoveredStatements="0" TotalStatements="22" CoveragePercent="0">
+              <Constructor Name="UpdateHouseCommandHandler(IHouseRepository)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="Handle(UpdateHouseCommand,CancellationToken):Task&lt;int&gt;" CoveredStatements="0" TotalStatements="7" CoveragePercent="0" />
+              <Method Name="HandleInternal(House,UpdateHouseCommand,CancellationToken):Task&lt;int&gt;" CoveredStatements="0" TotalStatements="11" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="11" CoveragePercent="0" />
+              </Method>
+            </Type>
+          </Namespace>
+          <Namespace Name="CSVConverter" CoveredStatements="0" TotalStatements="43" CoveragePercent="0">
+            <Type Name="CsvMapping" CoveredStatements="0" TotalStatements="24" CoveragePercent="0">
+              <Constructor Name="CsvMapping()" CoveredStatements="0" TotalStatements="24" CoveragePercent="0" />
+            </Type>
+            <Type Name="CsvParser" CoveredStatements="0" TotalStatements="19" CoveragePercent="0">
+              <Constructor Name="CsvParser(string)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="parse():List&lt;HouseFullSpecifications&gt;" CoveredStatements="0" TotalStatements="15" CoveragePercent="0" />
+            </Type>
+          </Namespace>
+          <Namespace Name="Queries" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+            <Type Name="GetHouseByIdQuery" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <AutoProperty Name="Id:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+            </Type>
+            <Type Name="GetHouseByIdQueryHandler" CoveredStatements="0" TotalStatements="11" CoveragePercent="0">
+              <Constructor Name="GetHouseByIdQueryHandler(IHouseRepository)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="Handle(GetHouseByIdQuery,CancellationToken):Task&lt;House&gt;" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="7" CoveragePercent="0" />
+              </Method>
+            </Type>
+            <Type Name="GetHousesQueryHandler" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+              <Constructor Name="GetHousesQueryHandler(IHouseRepository)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="Handle(GetHousesQuery,CancellationToken):Task&lt;IEnumerable&lt;House&gt;&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              </Method>
+            </Type>
+          </Namespace>
+          <Namespace Name="Utils" CoveredStatements="0" TotalStatements="15" CoveragePercent="0">
+            <Type Name="PricePredictUtil" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+              <AutoProperty Name="Bedrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+              <AutoProperty Name="Zipcode:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+                <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              </AutoProperty>
+            </Type>
+            <Type Name="PricePredictUtilHandler" CoveredStatements="0" TotalStatements="11" CoveragePercent="0">
+              <Constructor Name="PricePredictUtilHandler(IHouseRepository)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="Handle(PricePredictUtil,CancellationToken):Task&lt;Decimal&gt;" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="7" CoveragePercent="0" />
+              </Method>
+            </Type>
+          </Namespace>
+        </Namespace>
+        <Type Name="ApplicationDI" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+          <Method Name="AddApplication(IServiceCollection):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        </Type>
+      </Namespace>
+      <Namespace Name="PricePrediction" CoveredStatements="0" TotalStatements="54" CoveragePercent="0">
+        <Type Name="ModelInput" CoveredStatements="0" TotalStatements="40" CoveragePercent="0">
+          <AutoProperty Name="Bathrooms:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Bedrooms:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Condition:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="date:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Floors:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Grade:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Lat:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Long:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Price:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_above:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_basement:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_living:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_living15:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_lot:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Sqft_lot15:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="View:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Waterfront:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Yr_built:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Yr_renovated:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Zipcode:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+        </Type>
+        <Type Name="ModelOutput" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+          <AutoProperty Name="Score:float" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+        </Type>
+        <Type Name="Program" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+          <Constructor Name="Program()" CoveredStatements="0" TotalStatements="2" CoveragePercent="0" />
+          <Method Name="Main(string[]):void" CoveredStatements="0" TotalStatements="10" CoveragePercent="0" />
+        </Type>
+      </Namespace>
+    </Project>
+    <Project Name="Domain" CoveredStatements="8" TotalStatements="94" CoveragePercent="9">
+      <Namespace Name="Domain" CoveredStatements="8" TotalStatements="94" CoveragePercent="9">
+        <Namespace Name="Common" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+          <Type Name="BaseEntity" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+            <AutoProperty Name="Id:int" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+          </Type>
+        </Namespace>
+        <Namespace Name="Entities" CoveredStatements="7" TotalStatements="92" CoveragePercent="8">
+          <Type Name="House" CoveredStatements="7" TotalStatements="32" CoveragePercent="22">
+            <AutoProperty Name="Bathrooms:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="Bedrooms:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="Floors:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="Price:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="SquareFeet:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="YearBuilt:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <AutoProperty Name="ZipCode:string" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <Method Name="ToString():string" CoveredStatements="0" TotalStatements="18" CoveragePercent="0" />
+          </Type>
+          <Type Name="HouseFullSpecifications" CoveredStatements="0" TotalStatements="60" CoveragePercent="0">
+            <AutoProperty Name="bathrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="bedrooms:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="condition:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="date:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="floors:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="grade:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="id:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="lat:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="longt:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="price:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_above:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_basement:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_living:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_living15:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_lot:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="sqft_lot15:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="view:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="waterfront:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="yr_built:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="yr_renovated:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <AutoProperty Name="zipcode:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <Method Name="ToString():string" CoveredStatements="0" TotalStatements="18" CoveragePercent="0" />
+          </Type>
+        </Namespace>
+      </Namespace>
+    </Project>
+  </SolutionFolder>
+  <SolutionFolder Name="Infrastructure" CoveredStatements="7" TotalStatements="1153" CoveragePercent="1">
+    <Project Name="Persistence" CoveredStatements="7" TotalStatements="1153" CoveragePercent="1">
+      <Namespace Name="Persistence" CoveredStatements="7" TotalStatements="1153" CoveragePercent="1">
+        <Namespace Name="Context" CoveredStatements="7" TotalStatements="46" CoveragePercent="15">
+          <Type Name="HouseContext" CoveredStatements="7" TotalStatements="46" CoveragePercent="15">
+            <Constructor Name="HouseContext(DbContextOptions&lt;HouseContext&gt;)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+            <Constructor Name="HouseContext()" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <AutoProperty Name="Houses:DbSet&lt;House&gt;" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+            </AutoProperty>
+            <Method Name="OnConfiguring(DbContextOptionsBuilder):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+            <Method Name="OnModelCreating(ModelBuilder):void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Method Name="SaveChangesAsync():Task&lt;int&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            </Method>
+            <Method Name="Seeding():List&lt;House&gt;" CoveredStatements="0" TotalStatements="28" CoveragePercent="0" />
+          </Type>
+        </Namespace>
+        <Namespace Name="Migrations" CoveredStatements="0" TotalStatements="1044" CoveragePercent="0">
+          <Type Name="HouseContextModelSnapshot" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+            <Method Name="BuildModel(ModelBuilder):void" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+              <OwnCoverage CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <AnonymousMethod Name="(EntityTypeBuilder):void" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" />
+            </Method>
+          </Type>
+          <Type Name="InitialMigration" CoveredStatements="0" TotalStatements="1027" CoveragePercent="0">
+            <Method Name="BuildTargetModel(ModelBuilder):void" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+              <OwnCoverage CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <AnonymousMethod Name="(EntityTypeBuilder):void" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" />
+            </Method>
+            <Method Name="Down(MigrationBuilder):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <Method Name="Up(MigrationBuilder):void" CoveredStatements="0" TotalStatements="1007" CoveragePercent="0">
+              <OwnCoverage CoveredStatements="0" TotalStatements="1003" CoveragePercent="0" />
+              <AnonymousMethod Name="(ColumnsBuilder):{OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;}" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <AnonymousMethod Name="(CreateTableBuilder&lt;{OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;,OperationBuilder&lt;AddColumnOperation&gt;}&gt;):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+        <Namespace Name="v1" CoveredStatements="0" TotalStatements="57" CoveragePercent="0">
+          <Type Name="HouseRepository" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+            <Constructor Name="HouseRepository(HouseContext)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Method Name="GetByZipcodeAndBedrooms(string,string):Task&lt;House&gt;" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            </Method>
+          </Type>
+          <Type Name="Repository&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="49" CoveragePercent="0">
+            <Constructor Name="Repository(HouseContext)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Method Name="AddAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <Method Name="AddInternalAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Method>
+            <Method Name="DeleteAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <Method Name="DeleteInternalAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Method>
+            <Method Name="GetAllAsync():Task&lt;IEnumerable&lt;TEntity&gt;&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            </Method>
+            <Method Name="GetByIdAsync(int):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <Method Name="GetByIdIntrenalAsync(int):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            </Method>
+            <Method Name="UpdateAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <Method Name="UpdateInternalAsync(TEntity):Task&lt;TEntity&gt;" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+        <Type Name="PersistenceDI" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+          <Method Name="AddPersistence(IServiceCollection,IConfiguration):void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            <AnonymousMethod Name="(DbContextOptionsBuilder):void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </Method>
+        </Type>
+      </Namespace>
+    </Project>
+  </SolutionFolder>
+  <SolutionFolder Name="Presentation" CoveredStatements="10" TotalStatements="154" CoveragePercent="6">
+    <Project Name="PricePrediction" CoveredStatements="0" TotalStatements="75" CoveragePercent="0">
+      <Namespace Name="PricePrediction" CoveredStatements="0" TotalStatements="75" CoveragePercent="0">
+        <Namespace Name="Controllers" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+          <Type Name="WeatherForecastController" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+            <Constructor Name="WeatherForecastController(ILogger&lt;WeatherForecastController&gt;)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Constructor Name="WeatherForecastController()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <Method Name="Get():IEnumerable&lt;WeatherForecast&gt;" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <OwnCoverage CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <AnonymousMethod Name="(int):WeatherForecast" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+        <Namespace Name="Pages" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+          <Type Name="ErrorModel" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+            <Constructor Name="ErrorModel(ILogger&lt;ErrorModel&gt;)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <AutoProperty Name="RequestId:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+              <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </AutoProperty>
+            <Property Name="ShowRequestId:bool" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+              <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </Property>
+            <Method Name="OnGet():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Type>
+        </Namespace>
+        <Type Name="Program" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+          <Method Name="CreateHostBuilder(string[]):IHostBuilder" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <AnonymousMethod Name="(IWebHostBuilder):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Method>
+          <Method Name="Main(string[]):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        </Type>
+        <Type Name="Startup" CoveredStatements="0" TotalStatements="41" CoveragePercent="0">
+          <Constructor Name="Startup(IConfiguration)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+          <AutoProperty Name="Configuration:IConfiguration" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <Method Name="Configure(IApplicationBuilder,IWebHostEnvironment):void" CoveredStatements="0" TotalStatements="29" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="19" CoveragePercent="0" />
+            <AnonymousMethod Name="(IEndpointRouteBuilder):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <AnonymousMethod Name="(ISpaBuilder):void" CoveredStatements="0" TotalStatements="7" CoveragePercent="0" />
+          </Method>
+          <Method Name="ConfigureServices(IServiceCollection):void" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <AnonymousMethod Name="(SpaStaticFilesOptions):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Method>
+        </Type>
+        <Type Name="WeatherForecast" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+          <AutoProperty Name="Date:DateTime" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Summary:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="TemperatureC:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <Property Name="TemperatureF:int" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </Property>
+        </Type>
+      </Namespace>
+    </Project>
+    <Project Name="WebAPI" CoveredStatements="10" TotalStatements="79" CoveragePercent="13">
+      <Namespace Name="WebAPI" CoveredStatements="10" TotalStatements="79" CoveragePercent="13">
+        <Namespace Name="Controllers" CoveredStatements="10" TotalStatements="35" CoveragePercent="29">
+          <Namespace Name="v1" CoveredStatements="6" TotalStatements="21" CoveragePercent="29">
+            <Type Name="HousesController" CoveredStatements="6" TotalStatements="15" CoveragePercent="40">
+              <Constructor Name="HousesController(IMediator)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+              <Method Name="Create(CreateHouseCommand):Task&lt;IActionResult&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              </Method>
+              <Method Name="Get():Task&lt;IActionResult&gt;" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+              </Method>
+              <Method Name="Update(int,UpdateHouseCommand):Task&lt;IActionResult&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+              </Method>
+            </Type>
+            <Type Name="PricePredictionController" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+              <Constructor Name="PricePredictionController(IMediator)" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              <Method Name="Predict(PricePredictUtil):Task&lt;IActionResult&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              </Method>
+            </Type>
+          </Namespace>
+          <Type Name="BaseController" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+            <Constructor Name="BaseController(IMediator)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+          </Type>
+          <Type Name="WeatherForecastController" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+            <Constructor Name="WeatherForecastController(ILogger&lt;WeatherForecastController&gt;)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Constructor Name="WeatherForecastController()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <Method Name="Get():IEnumerable&lt;WeatherForecast&gt;" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <OwnCoverage CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <AnonymousMethod Name="(int):WeatherForecast" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+        <Type Name="Program" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+          <Method Name="CreateHostBuilder(string[]):IHostBuilder" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <AnonymousMethod Name="(IWebHostBuilder):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Method>
+          <Method Name="Main(string[]):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        </Type>
+        <Type Name="Startup" CoveredStatements="0" TotalStatements="30" CoveragePercent="0">
+          <Constructor Name="Startup(IConfiguration)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+          <AutoProperty Name="Configuration:IConfiguration" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <Method Name="Configure(IApplicationBuilder,IWebHostEnvironment):void" CoveredStatements="0" TotalStatements="16" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="12" CoveragePercent="0" />
+            <AnonymousMethod Name="(SwaggerUIOptions):void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <AnonymousMethod Name="(IEndpointRouteBuilder):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Method>
+          <Method Name="ConfigureServices(IServiceCollection):void" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+            <OwnCoverage CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <AnonymousMethod Name="(SwaggerGenOptions):void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+          </Method>
+        </Type>
+        <Type Name="WeatherForecast" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+          <AutoProperty Name="Date:DateTime" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="Summary:string" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <AutoProperty Name="TemperatureC:int" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+            <PropertySetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </AutoProperty>
+          <Property Name="TemperatureF:int" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          </Property>
+        </Type>
+      </Namespace>
+    </Project>
+  </SolutionFolder>
+  <SolutionFolder Name="Tests" CoveredStatements="0" TotalStatements="71" CoveragePercent="0">
+    <Project Name="Tests" CoveredStatements="0" TotalStatements="71" CoveragePercent="0">
+      <Namespace Name="Tests" CoveredStatements="0" TotalStatements="71" CoveragePercent="0">
+        <Namespace Name="Controllers" CoveredStatements="0" TotalStatements="34" CoveragePercent="0">
+          <Namespace Name="HouseController" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+            <Type Name="CreateHousesTests" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+              <Method Name="Clean():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              <Method Name="CreateRequest():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+              <Method Name="Init():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+              <Method Name="ShouldReturnStatusOk_WhenRequestCompletesSuccessfully():Task" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              </Method>
+              <Method Name="ShouldSendCreateHouseCommand():Task" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+              </Method>
+            </Type>
+          </Namespace>
+          <Namespace Name="Validators" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
+            <Type Name="CreateHouseCommandValidatorTests" CoveredStatements="0" TotalStatements="14" CoveragePercent="0">
+              <Method Name="Init():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+              <Method Name="WhenBedroomsIsMissing_ShouldReturnError():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+              <Method Name="WhenRequestIsOk_ShouldReturnTrue():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Type>
+          </Namespace>
+        </Namespace>
+        <Namespace Name="Handlers" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+          <Type Name="CreateHouseCommandHandlerTests" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+            <Method Name="Clear():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Method Name="CreateCommand():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <Method Name="Init():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            <Method Name="ShouldSendHouse():Task" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+        <Namespace Name="Repositories" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+          <Type Name="HouseRepositoryTests" CoveredStatements="0" TotalStatements="20" CoveragePercent="0">
+            <Method Name="Clear():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            <Method Name="Init():void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0" />
+            <Method Name="SetupContext():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <Method Name="SetupEntity():void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+            <Method Name="ShouldAddCorrectHouse():Task" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+              <InternalCompiledMethod Name="MoveNext():void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" />
+            </Method>
+          </Type>
+        </Namespace>
+      </Namespace>
+    </Project>
+  </SolutionFolder>
+</SolutionRoot>
