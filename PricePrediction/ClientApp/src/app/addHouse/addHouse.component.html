@@ -36,31 +36,39 @@
                     </div>
                 </div>
                 <div class="two-inline-div">
-                    <input [(ngModel)]="houseModel.bathrooms" id="bathrooms" type="text" formControlName="bathrooms" (focus)="setInvalidForm()" placeholder="number of bathrooms"/>
-                    <div *ngIf="f.bathrooms.touched && f.bathrooms.invalid" class="alert alert-danger">
-                        <div *ngIf="f.bathrooms.errors.required">Input is empty.</div>
-                        <div *ngIf="f.bathrooms.errors.pattern">Enter only numbers!</div>
-                        <div *ngIf="f.bathrooms.errors.min">At least one bathroom.</div>
+                    <div class="two-inline-subdiv">
+                        <input [(ngModel)]="houseModel.bathrooms" id="bathrooms" type="text" formControlName="bathrooms" (focus)="setInvalidForm()" placeholder="number of bathrooms"/>
+                        <div *ngIf="f.bathrooms.touched && f.bathrooms.invalid" class="alert alert-danger">
+                            <div *ngIf="f.bathrooms.errors.required">Input is empty.</div>
+                            <div *ngIf="f.bathrooms.errors.pattern">Enter only numbers!</div>
+                            <div *ngIf="f.bathrooms.errors.min">At least one bathroom.</div>
+                        </div>
                     </div>
-                    <input [(ngModel)]="houseModel.bedrooms" id="bedrooms"type="text" formControlName="bedrooms" (focus)="setInvalidForm()" placeholder="number of bedrooms"/>
-                    <div *ngIf="f.bedrooms.touched && f.bedrooms.invalid" class="alert alert-danger">
-                        <div *ngIf="f.bedrooms.errors.required">Input is empty.</div>
-                        <div *ngIf="f.bedrooms.errors.pattern">Enter only numbers!</div>
-                        <div *ngIf="f.bedrooms.errors.min">At least one bedroom.</div>
+                    <div class="two-inline-subdiv">
+                        <input [(ngModel)]="houseModel.bedrooms" id="bedrooms"type="text" formControlName="bedrooms" (focus)="setInvalidForm()" placeholder="number of bedrooms"/>
+                        <div *ngIf="f.bedrooms.touched && f.bedrooms.invalid" class="alert alert-danger">
+                            <div *ngIf="f.bedrooms.errors.required">Input is empty.</div>
+                            <div *ngIf="f.bedrooms.errors.pattern">Enter only numbers!</div>
+                            <div *ngIf="f.bedrooms.errors.min">At least one bedroom.</div>
+                        </div>
                     </div>
                 </div>
                 <div class="two-inline-div">
-                    <input [(ngModel)]="houseModel.squarefeet" id="squarefeet" type="text" formControlName="squarefeet" (focus)="setInvalidForm()" placeholder="squarefeet of living space"/>
-                    <div *ngIf="f.squarefeet.touched && f.squarefeet.invalid" class="alert alert-danger">
-                        <div *ngIf="f.squarefeet.errors.required">Input is empty.</div>
-                        <div *ngIf="f.squarefeet.errors.pattern">Enter only numbers!</div>
-                        <div *ngIf="f.squarefeet.errors.min">At least 20 sqarefeet.</div>
+                    <div class="two-inline-subdiv">
+                        <input [(ngModel)]="houseModel.squarefeet" id="squarefeet" type="text" formControlName="squarefeet" (focus)="setInvalidForm()" placeholder="squarefeet of living space"/>
+                        <div *ngIf="f.squarefeet.touched && f.squarefeet.invalid" class="alert alert-danger">
+                            <div *ngIf="f.squarefeet.errors.required">Input is empty.</div>
+                            <div *ngIf="f.squarefeet.errors.pattern">Enter only numbers!</div>
+                            <div *ngIf="f.squarefeet.errors.min">At least 100 sqarefeet.</div>
+                        </div>
                     </div>
-                    <input [(ngModel)]="houseModel.floors" id="floors"type="text" formControlName="floors" (focus)="setInvalidForm()" placeholder="number of floors"/>
-                    <div *ngIf="f.floors.touched && f.floors.invalid" class="alert alert-danger">
-                        <div *ngIf="f.floors.errors.required">Input is empty.</div>
-                        <div *ngIf="f.floors.errors.pattern">Enter only numbers!</div>
-                        <div *ngIf="f.floors.errors.min">At least 1 floor.</div>
+                    <div class="two-inline-subdiv">
+                        <input [(ngModel)]="houseModel.floors" id="floors"type="text" formControlName="floors" (focus)="setInvalidForm()" placeholder="number of floors"/>
+                        <div *ngIf="f.floors.touched && f.floors.invalid" class="alert alert-danger">
+                            <div *ngIf="f.floors.errors.required">Input is empty.</div>
+                            <div *ngIf="f.floors.errors.pattern">Enter only numbers!</div>
+                            <div *ngIf="f.floors.errors.min">At least 1 floor.</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,6 +85,9 @@
             <button type="submit" id="addButton" class="button" (click)="add(houseModel)">
                 Add
             </button>
+            <div *ngIf="control.errors && this.invalidForm==true" class="alert alert-danger">Please complete all required
+                fields.
+              </div>
         </div>
     </div>
 </form>

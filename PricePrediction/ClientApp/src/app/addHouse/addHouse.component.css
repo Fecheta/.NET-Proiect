@@ -75,6 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.2em;
   }
   .input-fields {
     display: flex;
@@ -87,8 +88,15 @@
   #alert {
     width:100%;
   }
+  .alert{
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-  .one-inline-div, .two-inline-div {
+  .one-inline-div, .two-inline-div  {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -97,13 +105,19 @@
     display: flex;
     justify-content: space-between;
   }
+  .two-inline-subdiv{
+    width: 48%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   #zipcode, #price, #yearbuilt {
     width: 100%;
   }
 
   #rooms, #floors, #bedrooms, #bathrooms, #squarefeet {
-    width: 49%;
+    width: 100%;
   }
   .error-div {
     height:10px;
@@ -129,6 +143,7 @@
   }
 
   .button {
+    background-color: #cfcdc4;
     margin-top: 40px;
     border: 3px solid #0d3859;
     border-radius: 20px;
@@ -144,4 +159,11 @@
      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
      background-color: #0d3859;
      color: white;
+  }
+
+  .button-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }

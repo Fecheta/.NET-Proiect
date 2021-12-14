@@ -40,7 +40,7 @@ import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
           yearbuilt: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1800), Validators.max((new Date()).getFullYear())]],
           bedrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
           bathrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
-          squarefeet: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(20)]],
+          squarefeet: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(100)]],
           floors: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
         });
       }
@@ -68,12 +68,18 @@ import {FormBuilder, FormGroup, FormControl, Validators} from '@angular/forms';
       }
 
       add(house: House) {
-         this.httpClient.post<number>('/api/1.0/Houses', this.houseModel).subscribe(result =>{
+        if (!this.inputForm.invalid) {  
+          this.httpClient.post<number>('/api/1.0/Houses', this.houseModel).subscribe(result =>{
           console.log(result);
           this.alert=true;
           this.inputForm.reset({});
-        });
+          });
+        }
+        else{
+          this.invalidForm=true;
+        }
       }
+
       closeAlert(){
         this.alert = false;
       }
