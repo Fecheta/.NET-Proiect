@@ -499,3 +499,4 @@ D:\Repos\.Net\Proiect\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 D:\Repos\.Net\Proiect\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 D:\Repos\.Net\Proiect\WebAPI\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\Filip Martisca\Desktop\HousePricePredction\.NET-Proiect\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Virgil\Desktop\.NET Laborator\.NET-Proiect\WebAPI\bin\Debug\net5.0\FluentValidation.dll
