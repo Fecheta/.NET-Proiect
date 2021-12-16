@@ -32,7 +32,7 @@ export class FormsComponent implements OnInit {
       year: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1800), Validators.max((new Date()).getFullYear())]],
       bedrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
       bathrooms: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]],
-      sqftliving: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(10)]],
+      sqftliving: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(100)]],
       floors: ['', [Validators.required, Validators.pattern('^[0-9]*$'), Validators.min(1)]]
     });
   }

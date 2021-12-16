@@ -4,10 +4,11 @@ using MediatR;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace Application.Features.Queries
 {
-    public class GetHousesQueryHandler : IRequestHandler<GetHousesQuery, IEnumerable<House>>
+    public class GetHousesQueryHandler : IRequestHandler<GetHousesQuery, List<House>>
     {
         private readonly IHouseRepository repository;
 
@@ -15,9 +16,11 @@ namespace Application.Features.Queries
         {
             this.repository = repository;
         }
-        public async Task<IEnumerable<House>> Handle(GetHousesQuery request, CancellationToken cancellationToken)
+        public async Task<List<House>> Handle(GetHousesQuery request, CancellationToken cancellationToken)
         {
-            return await repository.GetAllAsync();
+            IEnumerable<House> housesEnum =  await repository.GetAllAsync();
+            return housesEnum.ToList();
+            
         }
     }
 }

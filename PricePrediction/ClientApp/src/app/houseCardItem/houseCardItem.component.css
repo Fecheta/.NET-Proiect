@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    border: 2px solid #0d3859;
+    border: 3px solid #0d3859;
     border-radius:7px;
     margin: 5px 0;
     padding: 0;
@@ -14,5 +14,5 @@ span{
 }
 
 #idSpan, #bdSpan, #btSpan{
-    border-right:2px solid #0d3859 ;
+    border-right:3px solid #0d3859 ;
 }

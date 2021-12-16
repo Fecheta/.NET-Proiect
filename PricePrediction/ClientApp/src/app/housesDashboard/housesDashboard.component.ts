@@ -21,4 +21,7 @@ import { Router } from '@angular/router';
         this.houses = result;
       });
     }
+    redirectId(id:number){
+      this.router.navigateByUrl('details/' + id);
+    }
   }

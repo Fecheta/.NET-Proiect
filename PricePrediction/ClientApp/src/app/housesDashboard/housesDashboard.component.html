@@ -10,7 +10,7 @@
             </div>
         </li>
         <li *ngFor="let house of houses">
-            <house-card-item [house]="house"></house-card-item>
+            <house-card-item [house]="house" (click)="redirectId(house.id)"></house-card-item>
             </li>
     </ul>
 </div>
