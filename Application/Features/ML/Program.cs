@@ -1,18 +1,22 @@
 using System;
 using System.IO;
 using System.Linq;
+using Application.Interfaces;
+using Domain.Entities;
 using Microsoft.ML;
+using System.Threading.Tasks;
+using Application.Features.Utils;
 
 namespace PricePrediction
 {
-    public static class Program
+    public class Program 
     {
         private static readonly string TRAINING_DATA_FILEPATH 
-            = Path.Combine(Environment.CurrentDirectory, "kc_house_data.csv");
+            = "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Features\\ML\\kc_house_data.csv";
         private static readonly string MODEL_FILEPATH 
-            = Path.Combine(Environment.CurrentDirectory, "MLModel.zip");
+            = "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Features\\ML\\MLModel.zip";
 
-        public static void Main(string[] args)
+        public async Task<float> PricePredict(PricePredictUtil data)
         {
             MLContext mlContext = new MLContext(1);
              mlContext.Data.LoadFromTextFile<ModelInput>(
@@ -53,24 +57,24 @@ namespace PricePrediction
             ModelInput sampleData = new ModelInput()
             {
                 date = "20141013T000000",
-                Bedrooms = 3F,
-                Bathrooms = 1F,
-                Sqft_living = 1180F,
+                Bedrooms = data.Bedrooms,
+                Bathrooms = data.Bedrooms,
+                Sqft_living = data.SquareFeet,
                 Sqft_lot = 5650F,
-                Floors = "1",
+                Floors = data.Floors,
                 Waterfront = 0F,
                 View = 0F,
                 Condition = 3F,
                 Grade = 7F,
                 Sqft_above = 1180F,
                 Sqft_basement = 0F,
-                Yr_built = 1955F,
+                Yr_built = data.YearBuit,
                 Yr_renovated = 0F,
-                Zipcode = "98178",
+                Zipcode = data.Zipcode,
                 Lat = 47.5112F,
                 Long = -122.257F,
                 Sqft_living15 = 1340F,
-                Sqft_lot15 = 5650F,
+                Sqft_lot15 = 5650F
 
             };
 
@@ -81,6 +85,8 @@ namespace PricePrediction
             ModelOutput pResult = predEngine.Predict(sampleData);
             
             Console.WriteLine($"Predicted price: {pResult.Score}");
+
+            return pResult.Score;
         }
     }
 }
