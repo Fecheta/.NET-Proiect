@@ -26,6 +26,14 @@ namespace WebAPI.Controllers.v1
             return Ok(await mediator.Send(new GetHousesQuery()));
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById([FromRoute]int id)
+        {
+            GetHouseByIdQuery query = new GetHouseByIdQuery();
+            query.Id = id;
+            return Ok(await mediator.Send(query));
+        }
+
         [HttpPut]
         public async Task<IActionResult> Update(int id, [FromBody] UpdateHouseCommand command)
         {

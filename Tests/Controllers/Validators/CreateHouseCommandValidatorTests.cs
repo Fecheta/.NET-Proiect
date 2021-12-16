@@ -23,7 +23,7 @@ namespace Tests.Controllers.Validators
         public void WhenRequestIsOk_ShouldReturnTrue()
         {
             var model = _fixture.Build<CreateHouseCommand>()
-                .With(x => x.Bathrooms, "2")
+                .With(x => x.Bathrooms, "3")
                 .With(x => x.Bedrooms, "2")
                 .With(x => x.SquareFeet, "200")
                 .With(x => x.Floors, "2")

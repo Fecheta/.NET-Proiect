@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {}
+    "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
+    "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\obj\\",
+        "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\.Net\\Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

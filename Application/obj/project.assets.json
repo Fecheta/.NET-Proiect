@@ -8706,19 +8706,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Virgil\\.nuget\\packages\\": {}
+    "C:\\Users\\farta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Application\\obj\\",
+      "projectPath": "D:\\Repos\\.Net\\Proiect\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\farta\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\.Net\\Proiect\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\farta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8732,8 +8732,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Virgil\\Desktop\\.NET Laborator\\.NET-Proiect\\Domain\\Domain.csproj"
+            "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Repos\\.Net\\Proiect\\Domain\\Domain.csproj"
             }
           }
         }
@@ -8808,7 +8808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

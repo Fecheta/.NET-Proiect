@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Application.Features.Queries
 {
-    public class GetHousesQuery : IRequest<IEnumerable<House>>
+    public class GetHousesQuery : IRequest<List<House>>
     {
     }
 }
