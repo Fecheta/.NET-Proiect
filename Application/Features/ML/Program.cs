@@ -12,9 +12,9 @@ namespace PricePrediction
     public class Program 
     {
         private static readonly string TRAINING_DATA_FILEPATH 
-            = "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Features\\ML\\kc_house_data.csv";
+            = "..\\Application\\Features\\ML\\kc_house_data.csv";
         private static readonly string MODEL_FILEPATH 
-            = "C:\\Users\\Filip Martisca\\Desktop\\HousePricePredction\\.NET-Proiect\\Application\\Features\\ML\\MLModel.zip";
+            = "..\\Application\\Features\\ML\\MLModel.zip";
 
         public async Task<float> PricePredict(PricePredictUtil data)
         {
