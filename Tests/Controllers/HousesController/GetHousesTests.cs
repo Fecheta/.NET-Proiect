@@ -17,14 +17,12 @@ namespace Tests.Controllers.HouseController
     {
         private HousesController _controller;
         private Mock<IMediator> _mediator;
-        private GetHousesQuery _request;
 
         [SetUp]
         public void Init()
         {
             _mediator = new Mock<IMediator>();
             _controller = new HousesController(_mediator.Object);
-            _request = new GetHousesQuery();
         }
 
         [TearDown]
