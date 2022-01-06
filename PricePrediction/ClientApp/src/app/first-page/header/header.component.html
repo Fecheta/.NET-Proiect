@@ -1,8 +1,14 @@
 <div class="toolbar" role="banner">
-  <img width="60"
-       alt="House Logo"
-       src="../../../assets/images/houselogo.png" />
-  <span class="welcomeMsg">Welcome</span>
-  <div class="spacer"></div>
+  <div class="logo_msg">
+    <img width="60"
+         alt="House Logo"
+         src="../../../assets/images/houselogo.png"
+         [routerLink]="['/HousePricePrediction']"/>
+    <a class="nav-link text-white" [routerLink]="['/HousePricePrediction']">Welcome</a>
+  </div>
+  <div class="buttons">
+    <a class="nav-link text-white" [routerLink]="['/addHouse']">Add House</a>
+    <a class="nav-link text-white" [routerLink]="['/dashboard']">Dashboard</a>
+  </div>
 </div>
 

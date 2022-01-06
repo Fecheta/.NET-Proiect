@@ -9,14 +9,24 @@
   background-color: dodgerblue;
   color: white;
   font-weight: 600;
+  justify-content: space-between;
 }
 
   .toolbar img {
     margin: 0 16px;
   }
 
-.welcomeMsg {
-  width: 100px;
-  font-size: larger;
-  text-align: center;
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.logo_msg
+{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
 }
