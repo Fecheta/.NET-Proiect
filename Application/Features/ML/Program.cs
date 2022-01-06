@@ -1,21 +1,10 @@
 using System;
-using System.IO;
-using System.Linq;
-using Application.Interfaces;
-using Domain.Entities;
-using Microsoft.ML;
 using System.Threading.Tasks;
 using Application.Features.Utils;
-using Microsoft.ML.AutoML;
-using Microsoft.ML.Data;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
+using Microsoft.ML;
+using PricePrediction;
 
-
-namespace PricePrediction
+namespace Application.Features.ML
 {
     public class Program
     {
