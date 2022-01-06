@@ -1,6 +1,6 @@
 ﻿using Microsoft.ML.Data;
 
-namespace PricePrediction
+namespace Application.Features.ML
 {
     public class ModelInput
     {
