@@ -12,20 +12,23 @@
 
 .input {
   color: lightslategrey;
-  border: 1px solid #0d3859;
+  border: 2px solid #0d3859;
   border-radius: 5px;
   width: 260px;
   height: 30px;
   margin: 10px;
+  background-color: #e6f2f2;
+  padding:3px;
 }
 
 .inputs {
-  margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  font-size: 1.2em;
+  margin: 50px 10% 0 10%;
 }
 
 .submitDiv {
@@ -36,20 +39,22 @@
   height: max-content;
   flex-direction: column;
   flex: auto;
-  margin-top: 150px;
+  margin-top: 90px;
   /*
   height: 400px;
   */
 }
 
 .submitInputs {
-  height: 80px;
-  background: lightskyblue;
-  border: 2px solid royalblue;
-  border-radius: 15px;
-  color: #0d3859;
-  /*font-weight: bold;*/
-  font-size: larger;
+  background-color: #114d7a;
+  border: 2px solid #114d7a;
+  border-radius: 20px;
+  size: 20px;
+  text-align: center;
+  color:white ;
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 10px 35px;
 }
 
 input.ng-invalid {
@@ -60,9 +65,9 @@ input.ng-valid {
 }
 
   .submitInputs:hover {
-    background: dodgerblue;
-    border: 2px solid royalblue;
-    color: aliceblue;
+    background: white;
+    border: 2px solid lightslategray;
+    color: black;
   }
 
   .space{

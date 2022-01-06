@@ -3,12 +3,12 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
   display: flex;
   align-items: center;
-  background-color: dodgerblue;
+  background-color: #114d7a;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.2em;
   justify-content: space-between;
 }
 
@@ -20,13 +20,25 @@
 .buttons {
   display: flex;
   justify-content: space-around;
-  width: 400px;
+  width: 35%;
+}
+
+#logo{
+  padding:0.3em;
+  margin-right: 1.5em;
 }
 
 .logo_msg
 {
   display: flex;
-  justify-content: space-around;
-  width: 300px;
+  justify-content: center;
+  width: 20%;
   align-items: center;
+  margin-left:0;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  padding:0.3em;
 }
