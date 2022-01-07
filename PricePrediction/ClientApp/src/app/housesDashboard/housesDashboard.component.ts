@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { House } from './../models/house';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import {NgxPaginationModule} from 'ngx-pagination'
 
 @Component({
     selector: 'houses-dashboard',
