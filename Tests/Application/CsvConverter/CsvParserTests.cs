@@ -11,7 +11,7 @@ namespace Tests.CsvConverter
         public void Parse_Test()
         { 
             //Arrange
-            string file = @"..\..\..\CsvConverter\TestData.csv";
+            string file = @"..\..\..\Application\CsvConverter\TestData.csv";
             string dir = Directory.GetCurrentDirectory();
             
             var path = Path.Combine(dir, file);
@@ -45,6 +45,7 @@ namespace Tests.CsvConverter
             Assert.AreEqual("1340", lineList[0].sqft_living15);
             Assert.AreEqual("5650", lineList[0].sqft_lot15);
             
+            Assert.AreEqual(" 7129300520 20141013T000000 221900 3 1 1180 5650 1 0 0 3 7 1180 0 1955 0 98178 47.5112 -122.257 1340 5650", lineList[0].ToString());
         }
         
     }

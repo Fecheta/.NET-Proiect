@@ -32,11 +32,7 @@ namespace Domain.Entities
             foreach (System.Reflection.PropertyInfo property in this.GetType().GetProperties())
             {
                 sb.Append(' ');
-                if (property.GetIndexParameters().Length > 0)
-                {
-                    sb.Append("Indexed Property cannot be used");
-                }
-                else
+                if (property.GetIndexParameters().Length <= 0)
                 {
                     sb.Append(property.GetValue(this, null));
                 }

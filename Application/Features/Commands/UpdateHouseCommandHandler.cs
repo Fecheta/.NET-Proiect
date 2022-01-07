@@ -18,9 +18,9 @@ namespace Application.Features.Commands
         public Task<int> Handle(UpdateHouseCommand request, CancellationToken cancellationToken)
         {
             House house = repository.GetByIdAsync(request.Id).Result;
-            if (house == null || house.Id is 0)
+            if (house == null)
             {
-                throw new ArgumentNullException(nameof(request), "No house with this id was found");
+                throw new ArgumentNullException(nameof(request), "House must not be null");
             }
 
             return HandleInternal(house, request, cancellationToken);
