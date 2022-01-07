@@ -51,6 +51,10 @@
   border-radius: 50%;
   background: #114d7a;
   border: lightslategrey;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+
 }
 
 .btn-info:hover
@@ -67,12 +71,6 @@
   align-items: center;
   height: 200px;
   justify-content: space-around;
-}
-
-.btn-info {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .btn-info .tooltiptext {
