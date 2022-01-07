@@ -7,7 +7,7 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 1.3em;
-    margin-top: 70px;
+    margin-top: 110px;
 }
 ul{
     width:100%;
@@ -31,4 +31,8 @@ span{
 
 #idSpan, #bdSpan, #btSpan{
     border-right:4px solid #0d3859 ;
+}
+
+.pagination{
+    margin-top: 1em;
 }

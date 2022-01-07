@@ -31,11 +31,14 @@
 {
   height: 50px;
   width: 100px;
+  background-color: #114d7a;
 }
 
 .btn-primary:hover
 {
-  background: dodgerblue;
+  background: white;
+  color:black;
+  border: 2px solid lightslategray;
 }
 
 .btn-info
@@ -44,15 +47,16 @@
   width: 60px;
   height: 60px;
   font-size: 30px;
-  color: black;
+  color: white;
   border-radius: 50%;
-  background: lightslategrey;
+  background: #114d7a;
   border: lightslategrey;
 }
 
 .btn-info:hover
 {
   background: white;
+  color: black;
   border: 2px solid lightslategray;
 }
 

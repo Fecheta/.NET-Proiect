@@ -1,3 +1,4 @@
+
 .switch {
     position: relative;
     display: inline-block;
@@ -36,11 +37,11 @@
   }
   
   input:checked + .slider {
-    background-color: #0d3859;
+    background-color: #114d7a;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #0d3859;
+    box-shadow: 0 0 1px #114d7a;
   }
   
   input:checked + .slider:before {
@@ -59,14 +60,14 @@
 
   .container {
     width: 100%;
-   
+    margin-top: 110px;
   }
 
   .headline {
     text-align: center;
     color: #052136;
     margin-bottom: 80px;
-    margin-top: 100px;
+
   }
 
   .input-container{
@@ -78,6 +79,7 @@
     font-size: 1.2em;
   }
   .input-fields {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +127,8 @@
 
   input {
     border-radius: 8px;
+    background-color: #e6f2f2;
+    padding: 3px;
   }
 
   input.ng-invalid {
@@ -143,22 +147,23 @@
   }
 
   .button {
-    background-color: #cfcdc4;
+    background-color: #114d7a;
     margin-top: 40px;
-    border: 3px solid #0d3859;
+    border: 2px solid #114d7a;
     border-radius: 20px;
     size: 20px;
     text-align: center;
-    color:#0d3859 ;
+    color:white ;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.4em;
     padding: 10px 50px;
   }
 
   .button:hover{
      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
-     background-color: #0d3859;
-     color: white;
+     background-color: white;
+     color: black;
+     border: 2px solid lightslategray;
   }
 
   .button-div{

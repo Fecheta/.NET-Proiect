@@ -10,8 +10,11 @@
                 <span id="prSpan">Price</span>
             </div>
         </li>
-        <li *ngFor="let house of houses">
+        <li *ngFor="let house of houses | paginate: {id:'list-pagination', itemsPerPage: 20, currentPage: page, totalItems: totalHouses}">
             <house-card-item [house]="house" (click)="redirectId(house.id)"></house-card-item>
             </li>
     </ul>
+    <div class="pagination">
+        <pagination-controls id="list-pagination" maxSize="5" directionLinks="true" (pageChange)="page=$event"></pagination-controls>
+    </div>
 </div>
