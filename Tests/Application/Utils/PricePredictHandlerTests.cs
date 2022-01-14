@@ -5,6 +5,7 @@ using Moq;
 using NUnit.Framework;
 using System.Threading;
 using System.Threading.Tasks;
+using Application.Features.ML;
 using Application.Features.Utils;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
@@ -17,14 +18,14 @@ namespace Tests.Application.Utils
     {
         public class UpdateHouseHandlerTests
         {
-            private Mock<Program> _repository;
+            private Mock<Program> _program;
             private PricePredictUtilHandler _handler;
             private PricePredictUtil _command;
 
             [SetUp]
             public void Init()
             {
-                _repository = new Mock<Program>();
+                _program = new Mock<Program>();
                 _handler = new PricePredictUtilHandler();
                 CreateCommand();
                 
@@ -33,19 +34,19 @@ namespace Tests.Application.Utils
             [TearDown]
             public void Clear()
             {
-                _repository = null;
+                _program = null;
                 _handler = null;
             }
 
             [Test]
             public async Task ShouldSendHouse()
             {
-                // _repository.Setup(m => m.PricePredict(It.IsAny<PricePredictUtil>()))
+                // _program.Setup(m => m.PricePredict(It.IsAny<PricePredictUtil>()))
                 //     .Returns(Task.FromResult(new float()));
                 
                 var result = await _handler.Handle(_command, new CancellationToken());
-
-                _repository.Verify(m => m.PricePredict(It.IsAny<PricePredictUtil>()), Times.Once);
+            
+                _program.Verify(m => m.PricePredict(It.IsAny<PricePredictUtil>()), Times.Once);
             }
 
             private void CreateCommand()

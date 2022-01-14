@@ -1,26 +1,26 @@
 ﻿using System;
-using Application.Features.Commands;
 using Application.Interfaces;
 using Domain.Entities;
 using Moq;
 using NUnit.Framework;
 using System.Threading;
 using System.Threading.Tasks;
+using Application.Features.Queries;
 
 
-namespace Tests.Application.Commands
+namespace Tests.Application.Queries
 {
-    public class DeleteHouseHandlerTests
+    public class GetHouseByIdHandlerTests
     {
         private Mock<IHouseRepository> _repository;
-        private DeleteHouseCommandHandler _handler;
-        private DeleteHouseCommand _command;
+        private GetHouseByIdQueryHandler _handler;
+        private GetHouseByIdQuery _query;
 
         [SetUp]
         public void Init()
         {
             _repository = new Mock<IHouseRepository>();
-            _handler = new DeleteHouseCommandHandler(_repository.Object);
+            _handler = new GetHouseByIdQueryHandler(_repository.Object);
             CreateCommand();
         }
 
@@ -32,14 +32,14 @@ namespace Tests.Application.Commands
         }
 
         [Test]
-        public async Task ShouldSendHouse()
+        public async Task ShouldGetHouseById()
         {
             _repository.Setup(m => m.GetByIdAsync(It.IsAny<int>()))
                 .Returns(Task.FromResult(new House()));
 
-            var result = await _handler.Handle(_command, new CancellationToken());
+            var result = await _handler.Handle(_query, new CancellationToken());
 
-            _repository.Verify(m => m.DeleteAsync(It.IsAny<House>()), Times.Once);
+            // _repository.Verify(m => m.DeleteAsync(It.IsAny<House>()), Times.Once);
         }
         
         [Test]
@@ -47,22 +47,23 @@ namespace Tests.Application.Commands
         {
             _repository.Setup(m => m.GetByIdAsync(It.IsAny<int>()))
                 .Returns(Task.FromResult<House>(null));
-
-            Assert.Throws<ArgumentNullException>(() => _handler.Handle(_command, new CancellationToken()));
+            
+            try
+            {
+                var result = await _handler.Handle(_query, new CancellationToken());
+            }
+            catch (ArgumentNullException e)
+            {
+                Assert.AreEqual("No house with this id was found (Parameter 'request')", e.Message);
+            }
         }
+        
 
         private void CreateCommand()
         {
-            _command = new DeleteHouseCommand
+            _query = new GetHouseByIdQuery
             {
-                Id = 0,
-                Bedrooms = "2",
-                Bathrooms = "2",
-                SquareFeet = "300",
-                Floors = "3",
-                ZipCode = "61106",
-                YearBuilt = "2000",
-                Price = "200000",
+                Id = 0
             };
         }
     }

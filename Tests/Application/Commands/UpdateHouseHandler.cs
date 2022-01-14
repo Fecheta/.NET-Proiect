@@ -1,12 +1,11 @@
-﻿using Application.Features.Commands;
+﻿using System;
+using Application.Features.Commands;
 using Application.Interfaces;
 using Domain.Entities;
 using Moq;
 using NUnit.Framework;
 using System.Threading;
 using System.Threading.Tasks;
-using FluentAssertions;
-using Microsoft.AspNetCore.Mvc;
 
 
 namespace Tests.Application.Commands
@@ -45,6 +44,16 @@ namespace Tests.Application.Commands
                 var result = await _handler.Handle(_command, new CancellationToken());
 
                 _repository.Verify(m => m.UpdateAsync(It.IsAny<House>()), Times.Once);
+            }
+            
+            [Test]
+            public async Task ShouldThrowException()
+            {
+                _repository.Setup(m => m.GetByIdAsync(It.IsAny<int>()))
+                    .Returns(Task.FromResult<House>(null));
+
+                _command.Id = 1000;
+                Assert.Throws<ArgumentNullException>(() => _handler.Handle(_command, new CancellationToken()));
             }
 
             private void CreateCommand()
